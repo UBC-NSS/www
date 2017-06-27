@@ -1,0 +1,6 @@
+ul.twocol {
+  list-style-position: inside;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
