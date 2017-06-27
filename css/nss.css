@@ -4,3 +4,23 @@ ul.twocol {
   -webkit-columns: 2;
   -moz-columns: 2;
 }
+
+table.projtable {
+        table-layout: fixed;
+  cellpadding: 10px;
+  width: 100%;
+}
+
+img.logo {
+    vertical-align: middle;
+    width: 100%;
+}
+
+p.projdesc {
+        text-align: justify;
+}
+
+p.projtitle{
+    font-weight: bold;
+    font-size: 18px;
+}

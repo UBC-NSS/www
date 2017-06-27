@@ -1,15 +1,129 @@
-<!-- <div class="row"> -->
-	<p>
-		<h3>Ongoing:</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Networks, Systems, and Security Lab at UBC</title>
+	<link rel="stylesheet" href="../css/nss.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+
+	<style type="text/css">
+		body{
+			padding-top: 70px;
+		}
+	</style>
+</head>
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container" id="nav">
+			<div class="navbar-header">
+				<a class="navbar-brand">NSS Lab @ UBC</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" class="navlink navtop">Home</a></li>
+					<li><a data-target="people_subpage" class="navlink navtop">People</a></li>
+					<li class="active"><a href="projects.html" class="navlink navtop">Projects</a></li>
+					<li><a data-target="pubs_subpage" class="navlink navtop">Publications</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- main content starts -->
+	<div class="container" id="main">
+		<p>
+			<h3>Ongoing:</h3>
+			<ul class="twocol">
+				<li><small>Program analysis as a GitHub service</small></li>
+				<li><small>Modeling and checking of micro-services</small></li>
+				<li><small>Debugging/visualizing concurrent systems</small></li>
+				<li><small>Using SMT-solvers to allocate resources in the data center</small></li>
+				<li><small>Crowd-sourcing specification mining</small></li>
+				<li><small>Data-temporal specification mining</small></li>
+				<li><small>Test-case generation using specification miners</small></li>
+				<li><small>Characterizing physical insider attacks on Facebook</small></li>
+				<li><small>Managing assertions in large systems code</small></li>
+				<li><small>Secure and flexible data management using ARM TrustZone</small></li>
+				<li><small>Compiling PlusCal specs into Go code implementations</small></li>
+				<li><small>... and some others</small></li>
+			</ul>
+		</p>
+	
+		<p>
+			<h3>Ongoing, but further along:</h3>
+		</p>
+
 		<table class="projtable" cellpadding="8px">
-			<tr>
-				<td style="width:33%">
-					<a href="https://auggy.bitbucket.io/timesquared/">
-						<img class="logo" src="../files/logos/timesquared-logo.png" alt="timesquared-logo" />
-					</a>
-				</td>
-			</tr>
+		<tr>
+			<td style="width:33%">
+				<a href="https://auggy.bitbucket.io/timesquared/">
+				  <img class="logo" src="../files/logos/timesquared-logo.png" alt="timesquared-logo" />
+				</a>
+			</td>
+
+			<td>
+				<p class="projtitle">
+					<a href="https://auggy.bitbucket.io/timesquared/">TimeSquared: multi-threaded callstack analysis.</a> (<a style="color: #E56717;" href="https://auggy.bitbucket.io/timesquared/">Try it</a>)
+				</p>
+				<p class="projdesc">
+					Helping developers understand complex multi-threaded systems by capturing callstack/event information
+					(with <a href="https://dinamite-toolkit.github.io/">DINAMITE</a>) and supporting exploration of the captured data through visualization.
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width:33%">
+				<a href="https://bitbucket.org/bestchai/dinv/">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+				</a>
+			</td>
+			<td>
+				<p class="projtitle">
+					<a href="https://bitbucket.org/bestchai/dinv/">Dinv: distributed system state invariant detector.</a> <a style="color: #E56717;" href="https://www.youtube.com/watch?v=n9fH9ABJ6S4">(Video!)</a>
+				</p>
+				<p class="projdesc">
+					Distributed systems are difficult to debug and understand. One reasons for this is distributed state, which is not easily accessible and must be pieced together from the states of the individual nodes. <a href="https://bitbucket.org/bestchai/dinv/">Dinv</a> statically analyzes the node source code to identify distributed state variables and then instruments the system to record these variables at runtime. After system execution Dinv uses dynamic analysis to determine consistent distributed state snapshots and infers likely distributed state invariants.
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width:33%">
+				<a href="http://salt.ece.ubc.ca/callback-study/">
+					<img class="logo" src="../files/logos/callbacks-logo.jpg" alt="callbacks-logo" />
+				</a>
+			</td>
+			<td>
+				<p class="projtitle">
+					<a href="http://salt.ece.ubc.ca/callback-study/">Callback hell in JavaScript.</a>
+				</p>
+				<p class="projdesc">
+					Callbacks are a popular language features in JavaScript. However, they are also a source of comprehension and maintainability issues. The example on the left illustrates nested, anonymous callbacks, as well as asynchronous callback scheduling. Not much code, but so much complexity! We carried out a <a href="papers/esem15-js-callbacks-study.pdf">study</a> of callbacks across <a href="http://salt.ece.ubc.ca/callback-study/">138 applications</a>, and are developing tools to help developers manage <a href="http://callbackhell.com/">callback hell</a> in their applications. Our analysis code from the study is <a href="https://github.com/saltlab/callmeback">online</a>.
+				</p>
+			</td>
+		</tr>		
 		</table>
-		Program analysis as a GitHub service
-	</p>
-<!-- </div> -->
+
+
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p align="center">Last updated June 27, 2017</p>
+				</footer>
+			</div>
+		</div>
+
+	</div> <!-- container -->
+
+	<!-- main content ends -->
+
+	</body>
+</html>                                		
