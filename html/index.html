@@ -6,16 +6,28 @@
 	<link rel="stylesheet" href="../css/nss.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../css/bar/bar.css" type="text/css" media="screen" />
 	<script src="../js/jquery-1.11.3.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/jquery.nivo.slider.js"></script>
 
-	<style type="text/css">
-		body{
-			padding-top: 70px;
-		}
-	</style>
+	<!-- enables the slider in the jumbotron -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				animSpeed: 500,
+				pauseTime: 5000,
+				directionNav: true,
+				controlNav: true,
+				manualAdvance: false
+			});
+		});
+	</script>
+
 </head>
+
 <body>
 	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -26,22 +38,22 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a data-target="main" class="navlink navtop">Home</a></li>
-					<li><a data-target="people_subpage" class="navlink navtop">People</a></li>
+					<li class="active"><a href="index.html" class="navlink navtop">Home</a></li>
+					<li><a href="people.html" class="navlink navtop">People</a></li>
 					<li><a href="projects.html" class="navlink navtop">Projects</a></li>
-					<li><a data-target="pubs_subpage" class="navlink navtop">Publications</a></li>
+					<li><a href="pubs.html" class="navlink navtop">Publications</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="container" id="people_subpage">
+	<!--div class="container" id="people_subpage">
 		<object class="internal" type="text/html" data="people.html"></object>
 	</div>
 
 	<div class="container" id="pubs_subpage">
 		<object class="internal" type="text/html" data="pubs.html"></object>
-	</div>
+	</div-->
 
 	<div class="container" id="main">
 		<div class="jumbotron">
@@ -51,6 +63,14 @@
 				Computer Science</a>, at
 				the <a href="http://www.ubc.ca/">University of
 				British Columbia</a>.</p>
+
+
+			<div id="slider" class="nivoSlider">
+				<img src="../files/photos/lab2.jpg" alt="" data-transition="fade" title="Lab Meetings"/>
+				<img src="../files/photos/lab3.jpg" alt="" data-transition="fade" title="Discussions"/>
+				<img src="../files/photos/fabian.jpg" alt="" data-transition="fade" title="Lab Poster Boy" />
+			</div>
+
 		</div>
 		<div class="row">
 			<div class="col-xs-4">

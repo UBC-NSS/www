@@ -11,6 +11,11 @@ table.projtable {
   width: 100%;
 }
 
+img.photo {
+  vertical-align: middle;
+  width: 100%;
+}
+
 img.logo {
     vertical-align: middle;
     width: 100%;
