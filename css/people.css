@@ -1,0 +1,106 @@
+.header-boxed {
+	margin: 10px -15px 30px;
+	background: rgba(136,154,178,0.1);
+	box-shadow: 2px 2px 0px rgba(136,154,178,0.4);
+	border-radius: 4px;
+	padding: 5px 15px;
+}
+
+.header-boxed-secondary { 
+	margin: 100px -15px 30px;
+	background: rgba(136,154,178,0.1);
+	box-shadow: 2px 2px 0px rgba(136,154,178,0.4);
+	border-radius: 4px;
+	padding: 5px 15px;
+}
+
+/** Person Page **/
+.person-panel {
+	display: inline-block;
+	padding: 8px 8px 4px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	margin: 4px;
+	box-shadow: 0px 1px 0px #ddd;
+	text-align: left;
+	vertical-align: top;
+	width: 280px;
+}
+
+.person-panel.alumni {
+	background: #f4f4f4;
+}
+.person-panel.role-faculty {
+	box-shadow: 0 2px 0 rgb(205, 103, 84);
+}
+
+.person-panel.role-postdoctoral-fellow {
+	box-shadow: 0px 2px 0px rgb(141, 92, 194);
+}
+.person-panel.role-masters-student {
+	box-shadow: 0px 2px 0px rgb(92, 194, 194);
+}
+.person-panel.role-phd-student {
+	box-shadow: 0px 2px 0px rgb(94, 151, 255);
+}
+.person-panel.role-undergraduate-student {
+	box-shadow: 0px 2px 0px rgb(114, 194, 92);
+}
+
+.person-panel .field-name-field-cropface {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 3px;
+}
+
+.person-panel img {
+	display: block;
+	margin: auto;
+	width: 70px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.1);
+	
+}
+
+.person-name {
+	display: block;
+	font-weight: 700;
+}
+
+.person-role {
+	display: block;
+	color: #888;
+	font-size: 0.7em;
+}
+
+.other-person-role {
+	display: block;
+	color: #888;
+	font-size: 0.7em;
+}
+
+.person-years {
+	color: #888;
+	font-size: 0.9em;
+	display: block;
+}
+
+.other-person-years {
+	color: #777;
+	font-size: 0.9em;
+	display: block;
+}
+
+/*added*/
+.person-status {
+	color: #888;
+	font-size: 0.9em;
+	display: block;
+}
+
+.visitor-status{
+  display: block;
+  color: #888;
+  font-size: 0.7em;
+}
