@@ -13,7 +13,7 @@ table.projtable {
 
 img.photo {
   vertical-align: middle;
-  width: 100%;
+  width: 60%;
 }
 
 img.logo {
@@ -28,4 +28,22 @@ p.projdesc {
 p.projtitle{
     font-weight: bold;
     font-size: 18px;
+}
+
+body{
+    padding-top: 70px;
+}
+
+/* Custom ids made to overwrite bootstrap default spacing */
+td#proj-td {
+  padding: 20px;
+}
+
+#main.container {
+  padding-bottom: 50px;
+}
+
+#bootstrap-override.jumbotron {
+  margin-bottom: 0px;
+  padding: 10px 0;
 }

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="../css/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../css/themes/default/default.css" type="text/css" media="screen" />
 	<script src="../js/jquery-1.11.3.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/main.js"></script>
@@ -47,16 +47,8 @@
 		</div>
 	</nav>
 
-	<!--div class="container" id="people_subpage">
-		<object class="internal" type="text/html" data="people.html"></object>
-	</div>
-
-	<div class="container" id="pubs_subpage">
-		<object class="internal" type="text/html" data="pubs.html"></object>
-	</div-->
-
 	<div class="container" id="main">
-		<div class="jumbotron">
+		<div class="jumbotron" id="bootstrap-override">
 			<h2>Networks, Systems, and Security (NSS) Lab</h2>
 			<p>The NSS lab is part of
 				the <a href="https://www.cs.ubc.ca/">Department of
@@ -65,55 +57,55 @@
 				British Columbia</a>.</p>
 
 
-			<div id="slider" class="nivoSlider">
-				<img src="../files/photos/lab2.jpg" alt="" data-transition="fade" title="Lab Meetings"/>
-				<img src="../files/photos/lab3.jpg" alt="" data-transition="fade" title="Discussions"/>
-				<img src="../files/photos/fabian.jpg" alt="" data-transition="fade" title="Lab Poster Boy" />
-			</div>
+				<div id="slider" class="nivoSlider">
+					<img src="../files/photos/lab2.jpg" id="photo" alt="" data-transition="fade" title="Lab Meetings"/>
+					<img src="../files/photos/lab3.jpg" id="photo" alt="" data-transition="fade" title="Discussions"/>
+					<img src="../files/photos/fabian.jpg" id="photo" alt="" data-transition="fade" title="Lab Poster Boy">
+				</div>
 
-		</div>
-		<div class="row">
-			<div class="col-xs-4">
-				<h2>People</h2>
-				<p>NSS Lab is co-led by 6 faculty and includes
-					a number of MSc and PhD students. We are a
-					diverse group and are always looking to
-					recruit strong students to join us.</p>
-				<p><a data-target="people_subpage" class="btn btn-info navlink">Learn More &raquo;</a></p>
 			</div>
-			<div class="col-xs-4">
-				<h2>Projects</h2>
-				<p>We conduct research on a wide variety of
-					topics, including operating systems,
-					distributed systems, privacy, and program
-					analysis.</p>
-					<p><a href="projects.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
-			</div>
-			<div class="col-xs-4">
-				<h2>Publications</h2>
-				<p>We have a strong track-record in publishing
-					in top systems, networks, and security
-					conferences and journals.</p>
-					<p><a data-target="pubs_subpage" class="btn btn-info navlink">Learn More &raquo;</a></p>
-				</div>
-			</div>
-				<hr>
 			<div class="row">
-				<div class="col-xs-12">
-					<footer>
-						<p>NSS lab is supported by a number of
-							government and industrial sources,
-							including Cisco Systems, the
-							Communications Security Establishment
-							Canada, Intel Research, the National
-							Sciences and Engineering Research
-							Council of Canada (NSERC), Network
-							Appliance, Office of the Privacy
-							Commissioner of Canada, and the
-							National Science Foundation (NSF).</p>
-					</footer>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>                                		
+				<div class="col-xs-4">
+					<h2>People</h2>
+					<p>NSS Lab is co-led by 6 faculty and includes
+						a number of MSc and PhD students. We are a
+						diverse group and are always looking to
+						recruit strong students to join us.</p>
+						<p><a href="people.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+					</div>
+					<div class="col-xs-4">
+						<h2>Projects</h2>
+						<p>We conduct research on a wide variety of
+							topics, including operating systems,
+							distributed systems, privacy, and program
+							analysis.</p>
+							<p><a href="projects.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+						</div>
+						<div class="col-xs-4">
+							<h2>Publications</h2>
+							<p>We have a strong track-record in publishing
+								in top systems, networks, and security
+								conferences and journals.</p>
+								<p><a href="pubs.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-xs-12">
+								<footer>
+									<p>NSS lab is supported by a number of
+										government and industrial sources,
+										including Cisco Systems, the
+										Communications Security Establishment
+										Canada, Intel Research, the National
+										Sciences and Engineering Research
+										Council of Canada (NSERC), Network
+										Appliance, Office of the Privacy
+										Commissioner of Canada, and the
+										National Science Foundation (NSF).</p>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</body>
+					</html>                                		
