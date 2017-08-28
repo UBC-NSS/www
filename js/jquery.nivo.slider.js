@@ -19,7 +19,7 @@
             totalSlides: 0,
             running: false,
             paused: false,
-            stop: false,
+            stop: true,
             controlNavEl: false
         };
 
