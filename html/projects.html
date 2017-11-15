@@ -28,7 +28,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="index.html" class="navlink navtop">Home</a></li>
 					<li><a href="people.html" class="navlink navtop">People</a></li>
-					<li class="active"><a href="projects.html" class="navlink navtop">Projects</a></li>
+					<li class="active"><a href="projects.html" class="navlink navtop">Research</a></li>
 					<li><a href="pubs.html" class="navlink navtop">Publications</a></li>
 				</ul>
 			</div>
@@ -37,30 +37,24 @@
 
 	<!-- main content starts -->
 	<div class="container" id="main">
+		
 		<p>
-			<h3>Ongoing:</h3>
-			<ul class="twocol">
-				<li><small>Program analysis as a GitHub service</small></li>
-				<li><small>Modeling and checking of micro-services</small></li>
-				<li><small>Debugging/visualizing concurrent systems</small></li>
-				<li><small>Using SMT-solvers to allocate resources in the data center</small></li>
-				<li><small>Crowd-sourcing specification mining</small></li>
-				<li><small>Data-temporal specification mining</small></li>
-				<li><small>Test-case generation using specification miners</small></li>
-				<li><small>Characterizing physical insider attacks on Facebook</small></li>
-				<li><small>Managing assertions in large systems code</small></li>
-				<li><small>Secure and flexible data management using ARM TrustZone</small></li>
-				<li><small>Compiling PlusCal specs into Go code implementations</small></li>
-				<li><small>... and some others</small></li>
-			</ul>
+			<h2>Lab Focus Areas</h2>
+
+			<!-- Software Engineering for Systems -->
+			<!-- Operating Systems -->
+			<!-- Mobile Systems -->
+			<!-- Networked Systems -->
+			<!-- Security -->
+			<!-- Data Privacy -->
+
 		</p>
 	
-		<p>
-			<h3>Ongoing, but further along:</h3>
-		</p>
+		
 
 		<table class="projtable" cellpadding="8px">
 		<tr>
+			
 			<td id="proj-td" style="width:33%">
 				<a href="https://auggy.bitbucket.io/timesquared/">
 				  <img class="logo" src="../files/logos/timesquared-logo.png" alt="timesquared-logo" />
@@ -69,11 +63,33 @@
 
 			<td id="proj-td">
 				<p class="projtitle">
-					<a href="https://auggy.bitbucket.io/timesquared/">TimeSquared: multi-threaded callstack analysis.</a> (<a style="color: #E56717;" href="https://auggy.bitbucket.io/timesquared/">Try it</a>)
+					Software Engineering for Systems
 				</p>
 				<p class="projdesc">
-					Helping developers understand complex multi-threaded systems by capturing callstack/event information
-					(with <a href="https://dinamite-toolkit.github.io/">DINAMITE</a>) and supporting exploration of the captured data through visualization.
+					Modern distributed systems are difficult to reason about. We have developed a set of projects that make the process of instrumenting, debugging, and visualizing distributed systems simpler.
+					<ul>
+						<li><a href="https://distributedclocks.github.io/">Distributed Clocks</a> (vector clock instrumentation library)</li>
+						<li><a href="https://bitbucket.org/bestchai/dinv/">Dinv</a>, a distributed invariant checker (<a href="https://www.cs.ubc.ca/~bestchai/papers/dinv-poster-sosp15.pdf">SOSP '15 Poster</a>)
+						<li><a href="https://bestchai.bitbucket.io/shiviz/"> ShiViz</a>/<a href="https://bestchai.bitbucket.io/tsviz/">TSViz</a>, visualization engines for distributed executions (<a href="https://www.cs.ubc.ca/~bestchai/papers/icse14_shivector_shiviz_poster_abstract.pdf">ICSE '14</a>, <a href="https://www.cs.ubc.ca/~bestchai/papers/tsviz-icse17tool.pdf">ICSE '17</a>)</li>
+						<li> PGo (A PlusCal spec to Go implemention compiler) </li>
+					</ul>
+				</p>
+			</td>
+
+		</tr>
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+				<a href="https://bitbucket.org/bestchai/dinv/">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+				</a>
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Operating Systems
+				</p>
+				<p class="projdesc">
+					OS Desc (I don't know)
 				</p>
 			</td>
 		</tr>
@@ -86,29 +102,62 @@
 			</td>
 			<td id="proj-td">
 				<p class="projtitle">
-					<a href="https://bitbucket.org/bestchai/dinv/">Dinv: distributed system state invariant detector.</a> <a style="color: #E56717;" href="https://www.youtube.com/watch?v=n9fH9ABJ6S4">(Video!)</a>
+					Mobile Systems
 				</p>
 				<p class="projdesc">
-					Distributed systems are difficult to debug and understand. One reasons for this is distributed state, which is not easily accessible and must be pieced together from the states of the individual nodes. <a href="https://bitbucket.org/bestchai/dinv/">Dinv</a> statically analyzes the node source code to identify distributed state variables and then instruments the system to record these variables at runtime. After system execution Dinv uses dynamic analysis to determine consistent distributed state snapshots and infers likely distributed state invariants.
+					Mobile Desc (TrustZone, TrustedCapsules)
 				</p>
 			</td>
 		</tr>
 
 		<tr>
 			<td id="proj-td" style="width:33%">
-				<a href="http://salt.ece.ubc.ca/callback-study/">
-					<img class="logo" src="../files/logos/callbacks-logo.jpg" alt="callbacks-logo" />
+				<a href="https://bitbucket.org/bestchai/dinv/">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
 				</a>
 			</td>
 			<td id="proj-td">
 				<p class="projtitle">
-					<a href="http://salt.ece.ubc.ca/callback-study/">Callback hell in JavaScript.</a>
+					Networked Datacenter Systems
 				</p>
 				<p class="projdesc">
-					Callbacks are a popular language features in JavaScript. However, they are also a source of comprehension and maintainability issues. The example on the left illustrates nested, anonymous callbacks, as well as asynchronous callback scheduling. Not much code, but so much complexity! We carried out a <a href="papers/esem15-js-callbacks-study.pdf">study</a> of callbacks across <a href="http://salt.ece.ubc.ca/callback-study/">138 applications</a>, and are developing tools to help developers manage <a href="http://callbackhell.com/">callback hell</a> in their applications. Our analysis code from the study is <a href="https://github.com/saltlab/callmeback">online</a>.
+					Datacenter Desc (Decibel, DSM, Disaggreated Fault Tolerance, Netsolver)
 				</p>
 			</td>
-		</tr>		
+		</tr>
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+				<a href="https://bitbucket.org/bestchai/dinv/">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+				</a>
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Privacy 
+				</p>
+				<p class="projdesc">
+					Privacy Desc (TorMentor, InsuLearn, Distort)
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+				<a href="https://bitbucket.org/bestchai/dinv/">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+				</a>
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Security
+				</p>
+				<p class="projdesc">
+					Security Desc (Micasa, Beeswax)
+				</p>
+			</td>
+		</tr>
+	
 		</table>
 
 
