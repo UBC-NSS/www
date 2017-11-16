@@ -64,6 +64,10 @@
 	
 }
 
+.person-list {
+	font-size: 1.2em;
+}
+
 .person-name {
 	display: block;
 	font-weight: 700;
