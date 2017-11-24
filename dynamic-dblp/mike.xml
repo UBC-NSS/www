@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<query id="26323">:facetid:author:Michael_J\".\"_Feeley</query>
+<status code="200">OK</status>
+<time unit="msecs">8.60</time>
+<completions total="1" computed="1" sent="1">
+<c sc="35" dc="35" oc="35" id="3552258">:facetid:author:Michael_J._Feeley</c>
+</completions>
+<hits total="35" computed="35" sent="30" first="0">
+<hit score="1" id="1515716">
+<info><authors><author>Geoffrey Lefebvre</author><author>Brendan Cully</author><author>Christopher Head</author><author>Mark Spear</author><author>Norman C. Hutchinson</author><author>Mike Feeley</author><author>Andrew Warfield</author></authors><title>Execution mining.</title><venue>VEE</venue><pages>145-158</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/vee/LefebvreCHSHFW12</key><doi>10.1145/2151024.2151044</doi><ee>http://doi.acm.org/10.1145/2151024.2151044</ee><url>http://dblp.org/rec/conf/vee/LefebvreCHSHFW12</url></info>
+<url>URL#1515716</url>
+</hit>
+<hit score="1" id="2107230">
+<info><authors><author>Geoffrey Lefebvre</author><author>Brendan Cully</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Tralfamadore - unifying source code and execution experience.</title><venue>EuroSys</venue><pages>199-204</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/eurosys/LefebvreCFHW09</key><doi>10.1145/1519065.1519087</doi><ee>http://doi.acm.org/10.1145/1519065.1519087</ee><url>http://dblp.org/rec/conf/eurosys/LefebvreCFHW09</url></info>
+<url>URL#2107230</url>
+</hit>
+<hit score="1" id="2141610">
+<info><authors><author>Kan Cai</author><author>Michael Blackstock</author><author>Michael J. Feeley</author><author>Charles Krasic</author></authors><title>Non-intrusive, dynamic interference detection for 802.11 networks.</title><venue>Internet Measurement Conference</venue><pages>377-383</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/imc/CaiBFK09</key><doi>10.1145/1644893.1644939</doi><ee>http://doi.acm.org/10.1145/1644893.1644939</ee><url>http://dblp.org/rec/conf/imc/CaiBFK09</url></info>
+<url>URL#2141610</url>
+</hit>
+<hit score="1" id="2245044">
+<info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Brendan Cully</author><author>Sharath J. George</author></authors><title>Understanding Performance for Two 802.11 Competing Flows.</title><venue>J. Comput. Sci. Technol.</venue><volume>23</volume><number>3</number><pages>365-376</pages><year>2008</year><type>Journal Articles</type><key>journals/jcst/CaiFCG08</key><doi>10.1007/S11390-008-9139-6</doi><ee>https://doi.org/10.1007/s11390-008-9139-6</ee><url>http://dblp.org/rec/journals/jcst/CaiFCG08</url></info>
+<url>URL#2245044</url>
+</hit>
+<hit score="1" id="2308950">
+<info><authors><author>Dutch T. Meyer</author><author>Gitika Aggarwal</author><author>Brendan Cully</author><author>Geoffrey Lefebvre</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Parallax - virtual disks for virtual machines.</title><venue>EuroSys</venue><pages>41-54</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/eurosys/MeyerACLFHW08</key><doi>10.1145/1352592.1352598</doi><ee>http://doi.acm.org/10.1145/1352592.1352598</ee><url>http://dblp.org/rec/conf/eurosys/MeyerACLFHW08</url></info>
+<url>URL#2308950</url>
+</hit>
+<hit score="1" id="2361260">
+<info><authors><author>Brendan Cully</author><author>Geoffrey Lefebvre</author><author>Dutch T. Meyer</author><author>Mike Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Remus - High Availability via Asynchronous Virtual Machine Replication. (Best Paper)</title><venue>NSDI</venue><pages>161</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/nsdi/CullyLMFHW08</key><ee>http://www.usenix.org/events/nsdi08/tech/full_papers/cully/cully.pdf</ee><url>http://dblp.org/rec/conf/nsdi/CullyLMFHW08</url></info>
+<url>URL#2361260</url>
+</hit>
+<hit score="1" id="2383096">
+<info><authors><author>Kan Cai</author><author>Junfang Wang</author><author>Reza Lotun</author><author>Michael J. Feeley</author><author>Michael Blackstock</author><author>Charles Krasic</author></authors><title>A wired router can eliminate 802.11 unfairness, but it&apos;s hard.</title><venue>HotMobile</venue><pages>49-54</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/wmcsa/CaiWLFBK08</key><doi>10.1145/1411759.1411773</doi><ee>http://doi.acm.org/10.1145/1411759.1411773</ee><url>http://dblp.org/rec/conf/wmcsa/CaiWLFBK08</url></info>
+<url>URL#2383096</url>
+</hit>
+<hit score="1" id="2492479">
+<info><authors><author>Jake Wires</author><author>Michael J. Feeley</author></authors><title>Secure file system versioning at the block level.</title><venue>EuroSys</venue><pages>203-215</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/eurosys/WiresF07</key><doi>10.1145/1272996.1273018</doi><ee>http://doi.acm.org/10.1145/1272996.1273018</ee><url>http://dblp.org/rec/conf/eurosys/WiresF07</url></info>
+<url>URL#2492479</url>
+</hit>
+<hit score="1" id="2538301">
+<info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Brendan Cully</author><author>Sharath J. George</author></authors><title>Understanding Performance for Two 802.11 Competing Flows.</title><venue>MASS</venue><pages>1-11</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/mass/CaiFCG07</key><doi>10.1109/MOBHOC.2007.4428623</doi><ee>https://doi.org/10.1109/MOBHOC.2007.4428623</ee><url>http://dblp.org/rec/conf/mass/CaiFCG07</url></info>
+<url>URL#2538301</url>
+</hit>
+<hit score="1" id="2541079">
+<info><authors><author>Kan Cai</author><author>Michael Blackstock</author><author>Reza Lotun</author><author>Michael J. Feeley</author><author>Charles Krasic</author><author>Junfang Wang</author></authors><title>Wireless unfairness - alleviate MAC congestion first!</title><venue>WINTECH</venue><pages>43-50</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/mobicom/CaiBLFKW07</key><doi>10.1145/1287767.1287777</doi><ee>http://doi.acm.org/10.1145/1287767.1287777</ee><url>http://dblp.org/rec/conf/mobicom/CaiBLFKW07</url></info>
+<url>URL#2541079</url>
+</hit>
+<hit score="1" id="2567104">
+<info><authors><author>Kan Cai</author><author>Michael J. Feeley</author></authors><title>Trade - Cooperation without Trust in 802.11 Networks.</title><venue>HotMobile</venue><pages>58-63</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/wmcsa/CaiF07</key><doi>10.1109/HOTMOBILE.2007.11</doi><ee>https://doi.org/10.1109/HotMobile.2007.11</ee><url>http://dblp.org/rec/conf/wmcsa/CaiF07</url></info>
+<url>URL#2567104</url>
+</hit>
+<hit score="1" id="2710517">
+<info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Routing Transient Traffic in Mobile Ad Hoc Networks.</title><venue>MSN</venue><pages>13-24</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/msn/CaiFH06</key><doi>10.1007/11943952_2</doi><ee>https://doi.org/10.1007/11943952_2</ee><url>http://dblp.org/rec/conf/msn/CaiFH06</url></info>
+<url>URL#2710517</url>
+</hit>
+<hit score="1" id="2725480">
+<info><authors><author>Dmitry Brodsky</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Topology Sensitive Replica Selection.</title><venue>SRDS</venue><pages>18-28</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/srds/BrodskyFH06</key><doi>10.1109/SRDS.2006.46</doi><ee>https://doi.org/10.1109/SRDS.2006.46</ee><url>http://dblp.org/rec/conf/srds/BrodskyFH06</url></info>
+<url>URL#2725480</url>
+</hit>
+<hit score="1" id="2864042">
+<info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>The impact of transient traffic on mobile, ad-hoc routing.</title><venue>PE-WASUN</venue><pages>189-196</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/pe-wasun/CaiFH05</key><doi>10.1145/1089803.1089985</doi><ee>http://doi.acm.org/10.1145/1089803.1089985</ee><url>http://dblp.org/rec/conf/pe-wasun/CaiFH05</url></info>
+<url>URL#2864042</url>
+</hit>
+<hit score="1" id="2936062">
+<info><authors><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Suprio Ray</author></authors><title>Realistic Mobility for Mobile Ad Hoc Network Simulation.</title><venue>ADHOC-NOW</venue><pages>324-329</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/adhoc-now/FeeleyHR04</key><doi>10.1007/978-3-540-28634-9_28</doi><ee>https://doi.org/10.1007/978-3-540-28634-9_28</ee><url>http://dblp.org/rec/conf/adhoc-now/FeeleyHR04</url></info>
+<url>URL#2936062</url>
+</hit>
+<hit score="1" id="3001913">
+<info><authors><author>Geoffrey Lefebvre</author><author>Michael J. Feeley</author></authors><title>Separating durability and availability in self-managed storage.</title><venue>ACM SIGOPS European Workshop</venue><pages>28</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/sigopsE/LefebvreF04</key><doi>10.1145/1133572.1133576</doi><ee>http://doi.acm.org/10.1145/1133572.1133576</ee><url>http://dblp.org/rec/conf/sigopsE/LefebvreF04</url></info>
+<url>URL#3001913</url>
+</hit>
+<hit score="1" id="3199120">
+<info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Joon Suan Ong</author><author>Andrew Warfield</author><author>Michael J. Feeley</author></authors><title>Brittle systems will break - not bend - can aspect-oriented programming help?</title><venue>ACM SIGOPS European Workshop</venue><pages>79-86</pages><year>2002</year><type>Conference and Workshop Papers</type><key>conf/sigopsE/CoadyKOWF02</key><doi>10.1145/1133373.1133389</doi><ee>http://doi.acm.org/10.1145/1133373.1133389</ee><url>http://dblp.org/rec/conf/sigopsE/CoadyKOWF02</url></info>
+<url>URL#3199120</url>
+</hit>
+<hit score="1" id="3199855">
+<info><authors><author>Dmitry Brodsky</author><author>Alex Brodsky</author><author>Jody Pomkoski</author><author>Shihao Gong</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Using File-Grain Connectivity to Implement a Peer-to-Peer File System.</title><venue>SRDS</venue><pages>318-323</pages><year>2002</year><type>Conference and Workshop Papers</type><key>conf/srds/BrodskyBPGFH02</key><doi>10.1109/RELDIS.2002.1180203</doi><ee>https://doi.org/10.1109/RELDIS.2002.1180203</ee><url>http://dblp.org/rec/conf/srds/BrodskyBPGFH02</url></info>
+<url>URL#3199855</url>
+</hit>
+<hit score="1" id="3210528">
+<info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Joon Suan Ong</author></authors><title>Structuring operating system aspects.</title><venue>Commun. ACM</venue><volume>44</volume><number>10</number><pages>79-82</pages><year>2001</year><type>Journal Articles</type><key>journals/cacm/CoadyKFHO01</key><url>http://dblp.org/rec/journals/cacm/CoadyKFHO01</url></info>
+<url>URL#3210528</url>
+</hit>
+<hit score="1" id="3255104">
+<info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Joon Suan Ong</author><author>Stephan Gudmundson</author></authors><title>Aspect-Oriented System Structure.</title><venue>HotOS</venue><pages>166</pages><year>2001</year><type>Conference and Workshop Papers</type><key>conf/hotos/CoadyKFHOG01</key><doi>10.1109/HOTOS.2001.990082</doi><ee>https://doi.org/10.1109/HOTOS.2001.990082</ee><url>http://dblp.org/rec/conf/hotos/CoadyKFHOG01</url></info>
+<url>URL#3255104</url>
+</hit>
+<hit score="1" id="3277105">
+<info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Michael J. Feeley</author><author>Greg Smolyn</author></authors><title>Using aspectC to improve the modularity of path-specific customization in operating system code.</title><venue>ESEC / SIGSOFT FSE</venue><pages>88-98</pages><year>2001</year><type>Conference and Workshop Papers</type><key>conf/sigsoft/CoadyKFS01</key><doi>10.1145/503209.503223</doi><ee>http://doi.acm.org/10.1145/503209.503223</ee><url>http://dblp.org/rec/conf/sigsoft/CoadyKFS01</url></info>
+<url>URL#3277105</url>
+</hit>
+<hit score="1" id="3331095">
+<info><authors><author>Jasmine Y. Q. Wang</author><author>Joon Suan Ong</author><author>Yvonne Coady</author><author>Michael J. Feeley</author></authors><title>Using Idle Workstations to Implement Predictive Prefetching.</title><venue>HPDC</venue><pages>87-94</pages><year>2000</year><type>Conference and Workshop Papers</type><key>conf/hpdc/WangOCF00</key><doi>10.1109/HPDC.2000.868638</doi><ee>https://doi.org/10.1109/HPDC.2000.868638</ee><url>http://dblp.org/rec/conf/hpdc/WangOCF00</url></info>
+<url>URL#3331095</url>
+</hit>
+<hit score="1" id="3398428">
+<info><authors><author>Douglas J. Santry</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Alistair C. Veitch</author></authors><title>Elephant - The File System That Never Forgets.</title><venue>Workshop on Hot Topics in Operating Systems</venue><pages>2-7</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/hotos/SantryFHV99</key><doi>10.1109/HOTOS.1999.798369</doi><ee>https://doi.org/10.1109/HOTOS.1999.798369</ee><url>http://dblp.org/rec/conf/hotos/SantryFHV99</url></info>
+<url>URL#3398428</url>
+</hit>
+<hit score="1" id="3398643">
+<info><authors><author>Yvonne Coady</author><author>Joon Suan Ong</author><author>Michael J. Feeley</author></authors><title>Using Embedded Network Processors to Implement Global Memory Management in a Workstation Cluster.</title><venue>HPDC</venue><pages>319-328</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/hpdc/CoadyOF99</key><doi>10.1109/HPDC.1999.805312</doi><ee>https://doi.org/10.1109/HPDC.1999.805312</ee><url>http://dblp.org/rec/conf/hpdc/CoadyOF99</url></info>
+<url>URL#3398643</url>
+</hit>
+<hit score="1" id="3416967">
+<info><authors><author>Douglas S. Santry</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Alistair C. Veitch</author><author>Ross W. Carton</author><author>Jacob Ofir</author></authors><title>Deciding when to forget in the Elephant file system.</title><venue>SOSP</venue><pages>110-123</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/sosp/SantryFHVCO99</key><doi>10.1145/319151.319159</doi><ee>http://doi.acm.org/10.1145/319151.319159</ee><url>http://dblp.org/rec/conf/sosp/SantryFHVCO99</url></info>
+<url>URL#3416967</url>
+</hit>
+<hit score="1" id="3474452">
+<info><authors><author>Geoffrey M. Voelker</author><author>Eric J. Anderson</author><author>Tracy Kimbrel</author><author>Michael J. Feeley</author><author>Jeffrey S. Chase</author><author>Anna R. Karlin</author><author>Henry M. Levy</author></authors><title>Implementing Cooperative Prefetching and Caching in a Globally-Managed Memory System.</title><venue>SIGMETRICS</venue><pages>33-43</pages><year>1998</year><type>Conference and Workshop Papers</type><key>conf/sigmetrics/VoelkerAKFCKL98</key><doi>10.1145/277851.277869</doi><ee>http://doi.acm.org/10.1145/277851.277869</ee><url>http://dblp.org/rec/conf/sigmetrics/VoelkerAKFCKL98</url></info>
+<url>URL#3474452</url>
+</hit>
+<hit score="1" id="3476175">
+<info><authors><author>Darrell C. Anderson</author><author>Jeffrey S. Chase</author><author>Syam Gadde</author><author>Andrew J. Gallatin</author><author>Kenneth Yocum</author><author>Michael J. Feeley</author></authors><title>Cheating the I/O Bottleneck - Network Storage with Trapeze/Myrinet.</title><venue>USENIX Annual Technical Conference</venue><year>1998</year><type>Conference and Workshop Papers</type><key>conf/usenix/AndersonCGGYF98</key><ee>https://www.usenix.org/conference/1998-usenix-annual-technical-conference/cheating-io-bottleneck-network-storage</ee><url>http://dblp.org/rec/conf/usenix/AndersonCGGYF98</url></info>
+<url>URL#3476175</url>
+</hit>
+<hit score="1" id="3528870">
+<info><authors><author>Bradley M. Duska</author><author>David Marwood</author><author>Michael J. Feeley</author></authors><title>The Measured Access Characteristics of World-Wide-Web Client Proxy Caches.</title><venue>USENIX Symposium on Internet Technologies and Systems</venue><year>1997</year><type>Conference and Workshop Papers</type><key>conf/usits/DuskaMF97</key><ee>http://www.usenix.org/publications/library/proceedings/usits97/duska.html</ee><url>http://dblp.org/rec/conf/usits/DuskaMF97</url></info>
+<url>URL#3528870</url>
+</hit>
+<hit score="1" id="3555790">
+<info><authors><author>Hervé A. Jamrozik</author><author>Michael J. Feeley</author><author>Geoffrey M. Voelker</author><author>James Evans II</author><author>Anna R. Karlin</author><author>Henry M. Levy</author><author>Mary K. Vernon</author></authors><title>Reducing Network Latency Using Subpages in a Global Memory Environment.</title><venue>ASPLOS</venue><pages>258-267</pages><year>1996</year><type>Conference and Workshop Papers</type><key>conf/asplos/JamrozikFVEKLV96</key><doi>10.1145/237090.237198</doi><ee>http://doi.acm.org/10.1145/237090.237198</ee><url>http://dblp.org/rec/conf/asplos/JamrozikFVEKLV96</url></info>
+<url>URL#3555790</url>
+</hit>
+<hit score="1" id="3619319">
+<info><authors><author>Michael J. Feeley</author><author>William E. Morgan</author><author>Frédéric H. Pighin</author><author>Anna R. Karlin</author><author>Henry M. Levy</author><author>Chandramohan A. Thekkath</author></authors><title>Implementing Global Memory Management in a Workstation Cluster.</title><venue>SOSP</venue><pages>201-212</pages><year>1995</year><type>Conference and Workshop Papers</type><key>conf/sosp/FeeleyMPKL95</key><doi>10.1145/224056.224072</doi><ee>http://doi.acm.org/10.1145/224056.224072</ee><url>http://dblp.org/rec/conf/sosp/FeeleyMPKL95</url></info>
+<url>URL#3619319</url>
+</hit>
+</hits>
+</result>

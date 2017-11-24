@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<query id="26319">:facetid:author:William_Aiello</query>
+<status code="200">OK</status>
+<time unit="msecs">3.42</time>
+<completions total="1" computed="1" sent="1">
+<c sc="67" dc="67" oc="67" id="4208302">:facetid:author:William_Aiello</c>
+</completions>
+<hits total="67" computed="67" sent="30" first="0">
+<hit score="1" id="294834">
+<info><authors><author>Jean-Sébastien Légaré</author><author>Róbert Sumi</author><author>William Aiello</author></authors><title>Beeswax - a platform for private web apps.</title><venue>PoPETs</venue><volume>2016</volume><number>3</number><pages>24-40</pages><year>2016</year><type>Journal Articles</type><key>journals/popets/LegareSA16</key><ee>http://www.degruyter.com/view/j/popets.2016.2016.issue-3/popets-2016-0014/popets-2016-0014.xml</ee><url>http://dblp.org/rec/journals/popets/LegareSA16</url></info>
+<url>URL#294834</url>
+</hit>
+<hit score="1" id="369208">
+<info><authors><author>Celina G. Val</author><author>Michael A. Enescu</author><author>Sam Bayless</author><author>William Aiello</author><author>Alan J. Hu</author></authors><title>Precisely Measuring Quantitative Information Flow - 10K Lines of Code and Beyond.</title><venue>EuroS&amp;P</venue><pages>31-46</pages><year>2016</year><type>Conference and Workshop Papers</type><key>conf/eurosp/ValEBAH16</key><doi>10.1109/EUROSP.2016.15</doi><ee>https://doi.org/10.1109/EuroSP.2016.15</ee><url>http://dblp.org/rec/conf/eurosp/ValEBAH16</url></info>
+<url>URL#369208</url>
+</hit>
+<hit score="1" id="433899">
+<info><authors><author>David Williams-King</author><author>Graham Gobieski</author><author>Kent Williams-King</author><author>James P. Blake</author><author>Xinhao Yuan</author><author>Patrick Colp</author><author>Michelle Zheng</author><author>Vasileios P. Kemerlis</author><author>Junfeng Yang</author><author>William Aiello</author></authors><title>Shuffler - Fast and Deployable Continuous Code Re-Randomization.</title><venue>OSDI</venue><pages>367-382</pages><year>2016</year><type>Conference and Workshop Papers</type><key>conf/osdi/Williams-KingGW16</key><ee>https://www.usenix.org/conference/osdi16/technical-sessions/presentation/williams-king</ee><url>http://dblp.org/rec/conf/osdi/Williams-KingGW16</url></info>
+<url>URL#433899</url>
+</hit>
+<hit score="1" id="1159383">
+<info><authors><author>Jean-Sébastien Légaré</author><author>Dutch T. Meyer</author><author>Mark Spear</author><author>Alexandru Totolici</author><author>Sara Bainbridge</author><author>Kalan MacRow</author><author>Róbert Sumi</author><author>Quinlan Jung</author><author>Dennis Tjandra</author><author>David Williams-King</author><author>William Aiello</author><author>Andrew Warfield</author></authors><title>Tolerating business failures in hosted applications.</title><venue>SoCC</venue><pages>22:1-22:16</pages><year>2013</year><type>Conference and Workshop Papers</type><key>conf/cloud/LegareMSTBMSJTWAW13</key><doi>10.1145/2523616.2523618</doi><ee>http://doi.acm.org/10.1145/2523616.2523618</ee><url>http://dblp.org/rec/conf/cloud/LegareMSTBMSJTWAW13</url></info>
+<url>URL#1159383</url>
+</hit>
+<hit score="1" id="1176688">
+<info><authors><author>Mihir Nanavati</author><author>Mark Spear</author><author>Nathan Taylor</author><author>Shriram Rajagopalan</author><author>Dutch T. Meyer</author><author>William Aiello</author><author>Andrew Warfield</author></authors><title>Whose cache line is it anyway? - operating system support for live detection and repair of false sharing.</title><venue>EuroSys</venue><pages>141-154</pages><year>2013</year><type>Conference and Workshop Papers</type><key>conf/eurosys/NanavatiSTRMAW13</key><doi>10.1145/2465351.2465366</doi><ee>http://doi.acm.org/10.1145/2465351.2465366</ee><url>http://dblp.org/rec/conf/eurosys/NanavatiSTRMAW13</url></info>
+<url>URL#1176688</url>
+</hit>
+<hit score="1" id="1647266">
+<info><authors><author>Stephen E. McLaughlin</author><author>Patrick D. McDaniel</author><author>William Aiello</author></authors><title>Protecting consumer privacy from electric load monitoring.</title><venue>ACM Conference on Computer and Communications Security</venue><pages>87-98</pages><year>2011</year><type>Conference and Workshop Papers</type><key>conf/ccs/McLaughlinMA11</key><doi>10.1145/2046707.2046720</doi><ee>http://doi.acm.org/10.1145/2046707.2046720</ee><url>http://dblp.org/rec/conf/ccs/McLaughlinMA11</url></info>
+<url>URL#1647266</url>
+</hit>
+<hit score="1" id="1746667">
+<info><authors><author>Patrick Colp</author><author>Mihir Nanavati</author><author>Jun Zhu</author><author>William Aiello</author><author>George Coker</author><author>Tim Deegan</author><author>Peter Loscocco</author><author>Andrew Warfield</author></authors><title>Breaking up is hard to do - security and functionality in a commodity hypervisor.</title><venue>SOSP</venue><pages>189-202</pages><year>2011</year><type>Conference and Workshop Papers</type><key>conf/sosp/ColpNZACDLW11</key><doi>10.1145/2043556.2043575</doi><ee>http://doi.acm.org/10.1145/2043556.2043575</ee><url>http://dblp.org/rec/conf/sosp/ColpNZACDLW11</url></info>
+<url>URL#1746667</url>
+</hit>
+<hit score="1" id="1750689">
+<info><authors><author>Mihir Nanavati</author><author>Nathan Taylor</author><author>William Aiello</author><author>Andrew Warfield</author></authors><title>Herbert West - Deanonymizer.</title><venue>HotSec</venue><year>2011</year><type>Conference and Workshop Papers</type><key>conf/uss/NanavatiTAW11</key><ee>https://www.usenix.org/conference/hotsec11/herbert-west%E2%80%94deanonymizer</ee><url>http://dblp.org/rec/conf/uss/NanavatiTAW11</url></info>
+<url>URL#1750689</url>
+</hit>
+<hit score="1" id="2043539">
+<info><authors><author>William Enck</author><author>Thomas Moyer</author><author>Patrick D. McDaniel</author><author>Subhabrata Sen</author><author>Panagiotis Sebos</author><author>Sylke Spoerel</author><author>Albert G. Greenberg</author><author>Yu-Wei Eric Sung</author><author>Sanjay G. Rao</author><author>William Aiello</author></authors><title>Configuration management at massive scale - system design and experience.</title><venue>IEEE Journal on Selected Areas in Communications</venue><volume>27</volume><number>3</number><pages>323-335</pages><year>2009</year><type>Journal Articles</type><key>journals/jsac/EnckMMSSSGSRA09</key><doi>10.1109/JSAC.2009.090408</doi><ee>https://doi.org/10.1109/JSAC.2009.090408</ee><url>http://dblp.org/rec/journals/jsac/EnckMMSSSGSRA09</url></info>
+<url>URL#2043539</url>
+</hit>
+<hit score="1" id="2239082">
+<info><authors><author>William Aiello</author><author>Anthony Bonato</author><author>Colin Cooper</author><author>Jeannette C. M. Janssen</author><author>Pawel Pralat</author></authors><title>A Spatial Web Graph Model with Local Influence Regions.</title><venue>Internet Mathematics</venue><volume>5</volume><number>1</number><pages>175-196</pages><year>2008</year><type>Journal Articles</type><key>journals/im/AielloBCJP08</key><doi>10.1080/15427951.2008.10129305</doi><ee>https://doi.org/10.1080/15427951.2008.10129305</ee><url>http://dblp.org/rec/journals/im/AielloBCJP08</url></info>
+<url>URL#2239082</url>
+</hit>
+<hit score="1" id="2265350">
+<info><authors><author>William Aiello</author><author>Alexander Kesselman</author><author>Yishay Mansour</author></authors><title>Competitive buffer management for shared-memory switches.</title><venue>ACM Trans. Algorithms</venue><volume>5</volume><number>1</number><pages>3:1-3:16</pages><year>2008</year><type>Journal Articles</type><key>journals/talg/AielloKM08</key><doi>10.1145/1435375.1435378</doi><ee>http://doi.acm.org/10.1145/1435375.1435378</ee><url>http://dblp.org/rec/journals/talg/AielloKM08</url></info>
+<url>URL#2265350</url>
+</hit>
+<hit score="1" id="2388846">
+<info><authors><author>William Aiello</author><author>Andrei Z. Broder</author><author>Jeannette C. M. Janssen</author><author>Evangelos E. Milios</author></authors><title>Algorithms and Models for the Web-Graph, Fourth International Workshop, WAW 2006, Banff, Canada, November 30 - December 1, 2006. Revised Papers</title><venue>WAW</venue><venue>Lecture Notes in Computer Science</venue><volume>4936</volume><publisher>Springer</publisher><year>2008</year><type>Editorship</type><key>conf/waw/2006</key><doi>10.1007/978-3-540-78808-9</doi><ee>https://doi.org/10.1007/978-3-540-78808-9</ee><url>http://dblp.org/rec/conf/waw/2006</url></info>
+<url>URL#2388846</url>
+</hit>
+<hit score="1" id="2450190">
+<info><authors><author>William Aiello</author><author>Frank Thomson Leighton</author></authors><title>Hamming Codes, Hypercube Embeddings, and Fault Tolerance.</title><venue>SIAM J. Comput.</venue><volume>37</volume><number>3</number><pages>783-803</pages><year>2007</year><type>Journal Articles</type><key>journals/siamcomp/AielloL07</key><doi>10.1137/S0097539798332464</doi><ee>https://doi.org/10.1137/S0097539798332464</ee><url>http://dblp.org/rec/journals/siamcomp/AielloL07</url></info>
+<url>URL#2450190</url>
+</hit>
+<hit score="1" id="2561279">
+<info><authors><author>William Enck</author><author>Patrick D. McDaniel</author><author>Subhabrata Sen</author><author>Panagiotis Sebos</author><author>Sylke Spoerel</author><author>Albert G. Greenberg</author><author>Sanjay G. Rao</author><author>William Aiello</author></authors><title>Configuration Management at Massive Scale - System Design and Experience.</title><venue>USENIX Annual Technical Conference</venue><pages>73-86</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/usenix/EnckMSSSGRA07</key><ee>http://www.usenix.org/events/usenix07/tech/enck.html</ee><url>http://dblp.org/rec/conf/usenix/EnckMSSSGRA07</url></info>
+<url>URL#2561279</url>
+</hit>
+<hit score="1" id="2564206">
+<info><authors><author>William Aiello</author><author>Anthony Bonato</author><author>Colin Cooper</author><author>Jeannette C. M. Janssen</author><author>Pawel Pralat</author></authors><title>A Spatial Web Graph Model with Local Influence Regions.</title><venue>WAW</venue><pages>96-107</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/waw/AielloBCJP07</key><doi>10.1007/978-3-540-77004-6_8</doi><ee>https://doi.org/10.1007/978-3-540-77004-6_8</ee><url>http://dblp.org/rec/conf/waw/AielloBCJP07</url></info>
+<url>URL#2564206</url>
+</hit>
+<hit score="1" id="2587461">
+<info><authors><author>Patrick D. McDaniel</author><author>William Aiello</author><author>Kevin R. B. Butler</author><author>John Ioannidis</author></authors><title>Origin authentication in interdomain routing.</title><venue>Computer Networks</venue><volume>50</volume><number>16</number><pages>2953-2980</pages><year>2006</year><type>Journal Articles</type><key>journals/cn/McDanielABI06</key><doi>10.1016/J.COMNET.2005.11.007</doi><ee>https://doi.org/10.1016/j.comnet.2005.11.007</ee><url>http://dblp.org/rec/journals/cn/McDanielABI06</url></info>
+<url>URL#2587461</url>
+</hit>
+<hit score="1" id="2650246">
+<info><authors><author>Kevin R. B. Butler</author><author>Patrick D. McDaniel</author><author>William Aiello</author></authors><title>Optimizing BGP security by exploiting path stability.</title><venue>ACM Conference on Computer and Communications Security</venue><pages>298-310</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/ccs/ButlerA06</key><doi>10.1145/1180405.1180442</doi><ee>http://doi.acm.org/10.1145/1180405.1180442</ee><url>http://dblp.org/rec/conf/ccs/ButlerA06</url></info>
+<url>URL#2650246</url>
+</hit>
+<hit score="1" id="2711090">
+<info><authors><author>Patrick D. McDaniel</author><author>Subhabrata Sen</author><author>Oliver Spatscheck</author><author>Jacobus E. van der Merwe</author><author>William Aiello</author><author>Charles R. Kalmanek</author></authors><title>Enterprise Security - A Community of Interest Based Approach.</title><venue>NDSS</venue><year>2006</year><type>Conference and Workshop Papers</type><key>conf/ndss/McDanielSSMAK06</key><ee>http://www.isoc.org/isoc/conferences/ndss/06/proceedings/papers/enterprise_security.pdf</ee><url>http://dblp.org/rec/conf/ndss/McDanielSSMAK06</url></info>
+<url>URL#2711090</url>
+</hit>
+<hit score="1" id="2730475">
+<info><authors><author>William Aiello</author><author>Andrei Z. Broder</author><author>Jeannette C. M. Janssen</author><author>Evangelos E. Milios</author></authors><title>Modelling and Mining of Networked Information Spaces.</title><venue>WAW</venue><pages>1-17</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/waw/AielloBJM06</key><doi>10.1007/978-3-540-78808-9_1</doi><ee>https://doi.org/10.1007/978-3-540-78808-9_1</ee><url>http://dblp.org/rec/conf/waw/AielloBJM06</url></info>
+<url>URL#2730475</url>
+</hit>
+<hit score="1" id="2730476">
+<info><authors><author>William Aiello</author><author>Andrei Z. Broder</author><author>Jeannette C. M. Janssen</author><author>Evangelos E. Milios</author></authors><title>Workshop on Algorithms and Models for the Web Graph.</title><venue>WAW</venue><pages>18-23</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/waw/AielloBJM06a</key><doi>10.1007/978-3-540-78808-9_2</doi><ee>https://doi.org/10.1007/978-3-540-78808-9_2</ee><url>http://dblp.org/rec/conf/waw/AielloBJM06a</url></info>
+<url>URL#2730476</url>
+</hit>
+<hit score="1" id="2730482">
+<info><authors><author>John Healy</author><author>Jeannette C. M. Janssen</author><author>Evangelos E. Milios</author><author>William Aiello</author></authors><title>Characterization of Graphs Using Degree Cores.</title><venue>WAW</venue><pages>137-148</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/waw/HealyJMA06</key><doi>10.1007/978-3-540-78808-9_13</doi><ee>https://doi.org/10.1007/978-3-540-78808-9_13</ee><url>http://dblp.org/rec/conf/waw/HealyJMA06</url></info>
+<url>URL#2730482</url>
+</hit>
+<hit score="1" id="2767491">
+<info><authors><author>William Aiello</author><author>Yishay Mansour</author><author>S. Rajagopolan</author><author>Adi Rosén</author></authors><title>Competitive queue policies for differentiated services.</title><venue>J. Algorithms</venue><volume>55</volume><number>2</number><pages>113-141</pages><year>2005</year><type>Journal Articles</type><key>journals/jal/AielloMRR05</key><doi>10.1016/J.JALGOR.2004.04.004</doi><ee>https://doi.org/10.1016/j.jalgor.2004.04.004</ee><url>http://dblp.org/rec/journals/jal/AielloMRR05</url></info>
+<url>URL#2767491</url>
+</hit>
+<hit score="1" id="2844914">
+<info><authors><author>William Aiello</author><author>Anna C. Gilbert</author><author>Brian Rexroad</author><author>Vyas Sekar</author></authors><title>Sparse Approximations for High Fidelity Compression of Network Traffic Data.</title><venue>Internet Measurment Conference</venue><pages>253-266</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/imc/AielloGRS05</key><ee>http://www.usenix.org/events/imc05/tech/aiello.html</ee><url>http://dblp.org/rec/conf/imc/AielloGRS05</url></info>
+<url>URL#2844914</url>
+</hit>
+<hit score="1" id="2862786">
+<info><authors><author>William Aiello</author><author>Charles R. Kalmanek</author><author>Patrick D. McDaniel</author><author>Subhabrata Sen</author><author>Oliver Spatscheck</author><author>Jacobus E. van der Merwe</author></authors><title>Analysis of Communities of Interest in Data Networks.</title><venue>PAM</venue><pages>83-96</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/pam/AielloKMSSM05</key><doi>10.1007/978-3-540-31966-5_7</doi><ee>https://doi.org/10.1007/978-3-540-31966-5_7</ee><url>http://dblp.org/rec/conf/pam/AielloKMSSM05</url></info>
+<url>URL#2862786</url>
+</hit>
+<hit score="1" id="2930166">
+<info><authors><author>William Aiello</author><author>Steven M. Bellovin</author><author>Matt Blaze</author><author>Ran Canetti</author><author>John Ioannidis</author><author>Angelos D. Keromytis</author><author>Omer Reingold</author></authors><title>Just fast keying - Key agreement in a hostile internet.</title><venue>ACM Trans. Inf. Syst. Secur.</venue><volume>7</volume><number>2</number><pages>242-273</pages><year>2004</year><type>Journal Articles</type><key>journals/tissec/AielloBBCIKR04</key><doi>10.1145/996943.996946</doi><ee>http://doi.acm.org/10.1145/996943.996946</ee><url>http://dblp.org/rec/journals/tissec/AielloBBCIKR04</url></info>
+<url>URL#2930166</url>
+</hit>
+<hit score="1" id="3062874">
+<info><authors><author>William Aiello</author><author>John Ioannidis</author><author>Patrick D. McDaniel</author></authors><title>Origin authentication in interdomain routing.</title><venue>ACM Conference on Computer and Communications Security</venue><pages>165-178</pages><year>2003</year><type>Conference and Workshop Papers</type><key>conf/ccs/AielloIM03</key><doi>10.1145/948109.948133</doi><ee>http://doi.acm.org/10.1145/948109.948133</ee><url>http://dblp.org/rec/conf/ccs/AielloIM03</url></info>
+<url>URL#3062874</url>
+</hit>
+<hit score="1" id="3101562">
+<info><authors><author>Geoffrey Goodell</author><author>William Aiello</author><author>Timothy Griffin</author><author>John Ioannidis</author><author>Patrick D. McDaniel</author><author>Aviel D. Rubin</author></authors><title>Working around BGP - An Incremental Approach to Improving Security and Accuracy in Interdomain Routing.</title><venue>NDSS</venue><year>2003</year><type>Conference and Workshop Papers</type><key>conf/ndss/GoodellAGIMR03</key><ee>http://www.isoc.org/isoc/conferences/ndss/03/proceedings/papers/5.pdf</ee><url>http://dblp.org/rec/conf/ndss/GoodellAGIMR03</url></info>
+<url>URL#3101562</url>
+</hit>
+<hit score="1" id="3110008">
+<info><authors><author>William Aiello</author><author>Rafail Ostrovsky</author><author>Eyal Kushilevitz</author><author>Adi Rosén</author></authors><title>Dynamic routing on networks with fixed-size buffers.</title><venue>SODA</venue><pages>771-780</pages><year>2003</year><type>Conference and Workshop Papers</type><key>conf/soda/AielloOKR03</key><ee>http://dl.acm.org/citation.cfm?id=644108.644236</ee><url>http://dblp.org/rec/conf/soda/AielloOKR03</url></info>
+<url>URL#3110008</url>
+</hit>
+<hit score="1" id="3160579">
+<info><authors><author>William Aiello</author><author>Steven M. Bellovin</author><author>Matt Blaze</author><author>John Ioannidis</author><author>Omer Reingold</author><author>Ran Canetti</author><author>Angelos D. Keromytis</author></authors><title>Efficient, DoS-resistant, secure key exchange for internet protocols.</title><venue>ACM Conference on Computer and Communications Security</venue><pages>48-58</pages><year>2002</year><type>Conference and Workshop Papers</type><key>conf/ccs/AielloBBIRCK02</key><doi>10.1145/586110.586118</doi><ee>http://doi.acm.org/10.1145/586110.586118</ee><url>http://dblp.org/rec/conf/ccs/AielloBBIRCK02</url></info>
+<url>URL#3160579</url>
+</hit>
+<hit score="1" id="3215553">
+<info><authors><author>William Aiello</author><author>Fan Chung Graham</author><author>Linyuan Lu</author></authors><title>A Random Graph Model for Power Law Graphs.</title><venue>Experimental Mathematics</venue><volume>10</volume><number>1</number><pages>53-66</pages><year>2001</year><type>Journal Articles</type><key>journals/em/AielloGL01</key><doi>10.1080/10586458.2001.10504428</doi><ee>https://doi.org/10.1080/10586458.2001.10504428</ee><url>http://dblp.org/rec/journals/em/AielloGL01</url></info>
+<url>URL#3215553</url>
+</hit>
+</hits>
+</result>
