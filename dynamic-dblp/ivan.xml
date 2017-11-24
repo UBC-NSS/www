@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26265">:facetid:author:Ivan_Beschastnikh</query>
+<query id="35055">:facetid:author:Ivan_Beschastnikh</query>
 <status code="200">OK</status>
-<time unit="msecs">3.00</time>
+<time unit="msecs">2.99</time>
 <completions total="1" computed="1" sent="1">
 <c sc="43" dc="43" oc="43" id="3083249">:facetid:author:Ivan_Beschastnikh</c>
 </completions>

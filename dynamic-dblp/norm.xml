@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26326">:facetid:author:Norman_C\".\"_Hutchinson</query>
+<query id="35060">:facetid:author:Norman_C\".\"_Hutchinson</query>
 <status code="200">OK</status>
-<time unit="msecs">3.16</time>
+<time unit="msecs">3.46</time>
 <completions total="1" computed="1" sent="1">
 <c sc="60" dc="60" oc="60" id="3668626">:facetid:author:Norman_C._Hutchinson</c>
 </completions>

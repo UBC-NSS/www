@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26323">:facetid:author:Michael_J\".\"_Feeley</query>
+<query id="35059">:facetid:author:Michael_J\".\"_Feeley</query>
 <status code="200">OK</status>
-<time unit="msecs">8.60</time>
+<time unit="msecs">9.69</time>
 <completions total="1" computed="1" sent="1">
 <c sc="35" dc="35" oc="35" id="3552258">:facetid:author:Michael_J._Feeley</c>
 </completions>

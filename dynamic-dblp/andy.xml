@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26285">:facetid:author:Andrew_Warfield</query>
+<query id="35056">:facetid:author:Andrew_Warfield</query>
 <status code="200">OK</status>
-<time unit="msecs">7.26</time>
+<time unit="msecs">9.26</time>
 <completions total="1" computed="1" sent="1">
 <c sc="45" dc="45" oc="45" id="2471792">:facetid:author:Andrew_Warfield</c>
 </completions>

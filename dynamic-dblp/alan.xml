@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26330">:facetid:author:Alan_Wagner</query>
+<query id="35061">:facetid:author:Alan_Wagner</query>
 <status code="200">OK</status>
-<time unit="msecs">2.62</time>
+<time unit="msecs">3.04</time>
 <completions total="1" computed="1" sent="1">
 <c sc="30" dc="30" oc="30" id="2410122">:facetid:author:Alan_Wagner</c>
 </completions>

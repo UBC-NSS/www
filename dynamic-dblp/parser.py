@@ -1,10 +1,13 @@
 import xml.etree.ElementTree as ET
+import pandas as pd
 from django.utils.encoding import smart_str
 
 import pdb
 
 keys_i_care_about = ['title', 'venue', 'year', 'ee']
 year_list = list()
+starting_year = 2017
+
 
 def parse_faculty_obj(pub_dict, faculty_file):
 
@@ -26,23 +29,27 @@ def parse_faculty_obj(pub_dict, faculty_file):
         # A flat dictionary for one publication
         pub_obj = dict()
 
-        if hit_info.find('year') is None:
-            continue
+        # if hit_info.find('year') is None:
+        #     continue
 
-        # Top level dictionary indexed by year.
+        # # Top level dictionary indexed by year.
         year = hit_info.find('year').text
-        
+
         # Skip anything outside of the desired year range
         if year not in year_list:
             continue
 
+        if hit_info.find("type").text == "Editorship":
+            print hit_info.find("title").text
+            continue
+
         # Init year dict if not present
-        if year not in pub_dict:
-            pub_dict[year] = dict()
+        # if year not in pub_dict:
+        #     pub_dict[year] = dict()
 
         # Skip repearted publication ID
-        if pub_id in pub_dict[year]:
-            print pub_id + " is already present."
+        if pub_id in pub_dict:
+            # print pub_id + " is already present."
             continue
 
         # Get authors
@@ -67,7 +74,7 @@ def parse_faculty_obj(pub_dict, faculty_file):
         # Add to the faculty_obj if all keys are there
         if has_all:
 
-            pub_dict[year][pub_id] = pub_obj
+            pub_dict[pub_id] = pub_obj
             total_parsed += 1
 
     return pub_dict, total_parsed
@@ -75,36 +82,45 @@ def parse_faculty_obj(pub_dict, faculty_file):
 
 def pub_dict_to_html(pub_dict):
 
+    # convert to pandas for easy sorting
+    df = pd.DataFrame.from_dict(pub_dict, orient="index")
+
+    df = df.sort_values(['year', 'venue'], ascending=[False, True])
+
     file_obj = open("pub_list.html", 'w')
 
-    for year in year_list:
+    current_year = 0
 
-        file_obj.write("<h3>" + year + "</h3>\n")
-        file_obj.write("<ul>\n")
-        year_dict = pub_dict[year]
+    for index, row in df.iterrows():
 
-        for pub_id, pub in year_dict.items():
+        # Write a new year header if the year changes
+        year = row['year']
+        if not year == current_year:
+            if not current_year == 0:
+                file_obj.write("</ul>\n")
 
-            file_obj.write("<li>\n")
-            file_obj.write(
-                "<strong>" + smart_str(pub['title']) + "</strong>\n")
+            current_year = year
+            file_obj.write("<h3>" + year + "</h3>\n")
+            file_obj.write("<ul>\n")
 
-            author_string = ", ".join(pub['authors'])
+        file_obj.write("<li>\n")
+        file_obj.write(
+            "<strong>" + smart_str(row['title']) + "</strong>\n")
 
-            file_obj.write(smart_str(author_string) + ".\n")
+        author_string = ", ".join(row['authors'])
 
-            file_obj.write(pub['venue'] + "\n")
-            file_obj.write(pub['year'] + ".\n")
-            file_obj.write(
-                "[<a href=\"" + smart_str(pub['ee']) + "\">link</a>]\n")
-            file_obj.write("</li>\n")
+        file_obj.write(smart_str(author_string) + ".\n")
 
-        file_obj.write("</ul>\n")
+        file_obj.write(row['venue'] + "\n")
+        file_obj.write(year + ".\n")
+        file_obj.write(
+            "[<a href=\"" + smart_str(row['ee']) + "\">link</a>]\n")
+        file_obj.write("</li>\n")
+
+    file_obj.write("</ul>\n")
 
 
 if __name__ == "__main__":
-
-    starting_year = 2017
 
     # Take from the current year, go back 10 years
     for i in range(15):

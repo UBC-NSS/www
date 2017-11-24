@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="26319">:facetid:author:William_Aiello</query>
+<query id="35057">:facetid:author:William_Aiello</query>
 <status code="200">OK</status>
-<time unit="msecs">3.42</time>
+<time unit="msecs">4.22</time>
 <completions total="1" computed="1" sent="1">
 <c sc="67" dc="67" oc="67" id="4208302">:facetid:author:William_Aiello</c>
 </completions>
