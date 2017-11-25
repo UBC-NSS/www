@@ -24,7 +24,7 @@
 	box-shadow: 0px 1px 0px #ddd;
 	text-align: left;
 	vertical-align: top;
-	width: 325px;
+	width: 350px;
 }
 
 .person-panel.alumni {
@@ -57,8 +57,8 @@
 .person-panel img {
 	display: block;
 	margin: auto;
-	width: 70px;
-	height: 70px;
+	width: 100px;
+	height: 100px;
 	border-radius: 4px;
 	background-color: rgba(0,0,0,0.1);
 	
@@ -71,12 +71,13 @@
 .person-name {
 	display: block;
 	font-weight: 700;
+	font-size: 1.2em;
 }
 
 .person-role {
 	display: block;
 	color: #888;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .other-person-role {
