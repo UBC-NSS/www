@@ -1,108 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Networks, Systems, and Security Lab at UBC</title>
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
-<script src="../js/jquery-1.11.3.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/main.js"></script>
+	<meta charset="UTF-8">
+	<title>Networks, Systems, and Security Lab at UBC</title>
+	<link rel="stylesheet" href="../css/nss.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../css/themes/default/default.css" type="text/css" media="screen" />
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/jquery.nivo.slider.js"></script>
 
-<style type="text/css">
-    body{
-    	padding-top: 70px;
-    }
-</style>
+	<!-- enables the slider in the jumbotron -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				animSpeed: 500,
+				pauseTime: 5000,
+				directionNav: true,
+				controlNav: true,
+				manualAdvance: false
+			});
+		});
+	</script>
+
 </head>
+
 <body>
-<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="container" id="nav">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand">NSS Lab @ UBC</a>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container" id="nav">
+			<div class="navbar-header">
+				<a class="navbar-brand">NSS Lab @ UBC</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="navlink navtop">Home</a></li>
+					<li><a href="people.html" class="navlink navtop">People</a></li>
+					<li><a href="projects.html" class="navlink navtop">Research</a></li>
+					<li><a href="pubs.html" class="navlink navtop">Publications</a></li>
+					<li><a href="https://www.cs.ubc.ca/labs/nss/" class="navlink navtop">Internal</a></li>
+				</ul>
+			</div>
 		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="nav navbar-nav">
-				<li class="active"><a data-target="main" class="navlink navtop">Home</a></li>
-				<li><a data-target="people_subpage" class="navlink navtop">People</a></li>
-				<li><a data-target="prj_subpage" class="navlink navtop">Projects</a></li>
-				<li><a data-target="pubs_subpage" class="navlink navtop">Publications</a></li>
-			</ul>
+	</nav>
+
+	<div class="container" id="main">
+
+		<div class="row">
+			<div class="col-xs-8">
+				<div id="slider" class="nivoSlider">
+					<img src="../files/main-photos/lab1.jpg" id="photo" alt="" data-transition="fade" title="NSS Lab Members"/>
+					<img src="../files/main-photos/huawei_visit.jpg" id="photo" alt="" data-transition="fade" title="October 2017 Huawei Visit"/>
+					<img src="../files/main-photos/seminar2.jpg" id="photo" alt="" data-transition="fade" title="NSS Weekly Seminars">
+					<img src="../files/main-photos/lab2.jpg" id="photo" alt="" data-transition="fade" title="NSS Lab Members">
+					<img src="../files/main-photos/lablife.jpg" id="photo" alt="" data-transition="fade" title="In the NSS Lab"/>
+					<img src="../files/main-photos/seminar1.jpg" id="photo" alt="" data-transition="fade" title="NSS Weekly Seminars">
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<h2>Networks, Systems, and Security (NSS) Lab</h2>
+				<p>The NSS lab is part of
+				the <a href="https://www.cs.ubc.ca/">Department of
+				Computer Science</a>, at
+				the <a href="http://www.ubc.ca/">University of
+				British Columbia</a>.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-4">
+				<h2>People</h2>
+				<p>NSS Lab is co-led by 6 faculty and includes
+				a number of MSc and PhD students. We are a
+				diverse group and are always looking to
+				recruit strong students to join us.</p>
+				<p><a href="people.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+			</div>
+			<div class="col-xs-4">
+				<h2>Research</h2>
+				<p>We conduct research on a wide variety of
+					topics, including operating systems,
+					distributed systems, privacy, and program
+					analysis.</p>
+					<p><a href="projects.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+			</div>
+			<div class="col-xs-4">
+				<h2>Publications</h2>
+				<p>We have a strong track-record in publishing
+					in top systems, networks, and security
+					conferences and journals.</p>
+					<p><a href="pubs.html" class="btn btn-info navlink">Learn More &raquo;</a></p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p>NSS lab is supported by a number of
+						government and industrial sources,
+						including Cisco Systems, the
+						Communications Security Establishment
+						Canada, Intel Research, the National
+						Sciences and Engineering Research
+						Council of Canada (NSERC), Network
+						Appliance, Office of the Privacy
+						Commissioner of Canada, and the
+						National Science Foundation (NSF).</p>
+					</footer>
+				</div>
 		</div>
 	</div>
-</nav>
-
-<div class="container" id="people_subpage">
-people stuff
-</div>
-
-<div class="container" id="prj_subpage">
-project stuff
-</div>
-
-<div class="container" id="pubs_subpage">
-pubs stuff
-</div>
-
-<div class="container" id="main">
-	<div class="jumbotron">
-		<h2>Networks, Systems, and Security (NSS) Lab</h2>
-		<p>The NSS lab is part of
-                  the <a href="https://www.cs.ubc.ca/">Department of
-                  Computer Science</a>, at
-                  the <a href="http://www.ubc.ca/">University of
-                  British Columbia</a>.</p>
-	</div>
-	<div class="row">
-		<div class="col-xs-4">
-			<h2>People</h2>
-			<p>NSS Lab is co-led by 6 faculty and includes
-			a number of MSc and PhD students. We are a
-			diverse group and are always looking to
-			recruit strong students to join us.</p>
-			<p><a data-target="people_subpage" class="btn btn-info navlink">Learn More &raquo;</a></p>
-		</div>
-		<div class="col-xs-4">
-			<h2>Projects</h2>
-			<p>We conduct research on a wide variety of
-                          topics, including operating systems,
-                          distributed systems, privacy, and program
-                          analysis.</p>
-			<p><a data-target="prj_subpage" class="btn btn-info navlink">Learn More &raquo;</a></p>
-		</div>
-		<div class="col-xs-4">
-			<h2>Publications</h2>
-			<p>We have a strong track-record in publishing
-			in top systems, networks, and security
-			conferences and journals.</p>
-			<p><a data-target="pubs_subpage" class="btn btn-info navlink">Learn More &raquo;</a></p>
-		</div>
-	</div>
-	<hr>
-	<div class="row">
-		<div class="col-xs-12">
-			<footer>
-				<p>NSS lab is supported by a number of
-				government and industrial sources,
-				including Cisco Systems, the
-				Communications Security Establishment
-				Canada, Intel Research, the National
-				Sciences and Engineering Research
-				Council of Canada (NSERC), Network
-				Appliance, Office of the Privacy
-				Commissioner of Canada, and the
-				National Science Foundation (NSF).</p>
-			</footer>
-		</div>
-	</div>
-</div>
 </body>
-</html>                                		
+</html>

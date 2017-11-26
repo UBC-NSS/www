@@ -1,0 +1,49 @@
+ul.twocol {
+  list-style-position: inside;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+table.projtable {
+        table-layout: fixed;
+  cellpadding: 10px;
+  width: 100%;
+}
+
+img.photo {
+  vertical-align: middle;
+  width: 60%;
+}
+
+img.logo {
+    vertical-align: middle;
+    width: 100%;
+}
+
+p.projdesc {
+        text-align: justify;
+}
+
+p.projtitle{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body{
+  padding-top: 70px;
+}
+
+/* Custom ids made to overwrite bootstrap default spacing */
+td#proj-td {
+  padding: 20px;
+}
+
+#main.container {
+  padding-bottom: 50px;
+}
+
+#bootstrap-override.jumbotron {
+  margin-bottom: 0px;
+  padding: 5px 15px;
+}

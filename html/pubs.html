@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Networks, Systems, and Security Lab at UBC</title>
+	<link rel="stylesheet" href="../css/nss.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+
+	<!-- For loading the publications -->
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script> 
+    $(function(){
+      $("#publicationContent").load("pub_list.html"); 
+    });
+    </script>
+
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script> 
+
+</head>
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container" id="nav">
+			<div class="navbar-header">
+				<a class="navbar-brand">NSS Lab @ UBC</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" class="navlink navtop">Home</a></li>
+					<li><a href="people.html" class="navlink navtop">People</a></li>
+					<li><a href="projects.html" class="navlink navtop">Research</a></li>
+					<li class="active"><a href="pubs.html" class="navlink navtop">Publications</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- If adding new papers, please try to follow the format below -->
+	<!-- 
+		<li>
+			<strong>PAPER TITLE</strong>
+			AUTHORS
+			In <em>Proceedings of the NNth Conference </em>
+			CONF' 2017. MM 2017.
+			[&nbsp;<a href="link to acm/ieee page">link</a>&nbsp;]
+		</li>
+	-->
+	<div class="container" id="main">
+		<div id="publicationContent"></div>	
+	</div>
+</body>
+</html>                                		
