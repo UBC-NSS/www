@@ -11,6 +11,9 @@ starting_year = 2017
 
 def parse_faculty_obj(pub_dict, faculty_file):
 
+    blacklist_file = open("blacklist")
+    blacklist = [line.strip() for line in blacklist_file]
+
     tree = ET.parse(faculty_file)
     root = tree.getroot()
     total_parsed = 0
@@ -39,8 +42,13 @@ def parse_faculty_obj(pub_dict, faculty_file):
         if year not in year_list:
             continue
 
+        # Skip two odd Alan Wagner copies
+        if hit_info.find("venue").text == "ICSR" or hit_info.find("venue").text == "AI Magazine":
+            print "Skipping " + pub_id + " since it is blacklisted"
+            continue
+
+        # Skip anything in "proceedings of..."
         if hit_info.find("type").text == "Editorship":
-            print hit_info.find("title").text
             continue
 
         # Init year dict if not present
