@@ -9,6 +9,11 @@ You can also open a local webserver:
 `python -m SimpleHTTPServer` 
 and go to localhost:8000.
 
+### Photos: Main Slider
+These are stored in /files/main-photos  
+The default aspect ratio of the photos is 3:2, only because my camera had that setting.  
+Add a photo there, and modify the nivoSlider section in index.html to include it in the rotation.
+
 ### Photos: Headshots
 All the original shots are stored in /files/people-photos/unedited  
 I use gThumb to crop the image into a square, and then save it in the /files/people-photos directory.  
