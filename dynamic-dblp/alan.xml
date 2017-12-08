@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<query id="225618">:facetid:author:Alan_Wagner</query>
+<status code="200">OK</status>
+<time unit="msecs">1.76</time>
+<completions total="1" computed="1" sent="1">
+<c sc="30" dc="30" oc="30" id="2411730">:facetid:author:Alan_Wagner</c>
+</completions>
+<hits total="30" computed="30" sent="30" first="0">
+<hit score="1" id="450485">
+<info><authors><author>Alan Wagner</author></authors><title>Using Games to Learn Games - Game-Theory Representations as a Source for Guided Social Learning.</title><venue>ICSR</venue><pages>42-51</pages><year>2016</year><type>Conference and Workshop Papers</type><key>conf/socrob/Wagner16</key><doi>10.1007/978-3-319-47437-3_5</doi><ee>https://doi.org/10.1007/978-3-319-47437-3_5</ee><url>http://dblp.org/rec/conf/socrob/Wagner16</url></info>
+<url>URL#450485</url>
+</hit>
+<hit score="1" id="775254">
+<info><authors><author>Manish Jain</author><author>Albert Xin Jiang</author><author>Takashi Kido</author><author>Keiki Takadama</author><author>Eric G. Mercer</author><author>Neha Rungta</author><author>Mark Waser</author><author>Alan Wagner</author><author>Jennifer L. Burke</author><author>Donald A. Sofge</author><author>William F. Lawless</author><author>Mohan Sridharan</author><author>Nick Hawes</author><author>Tim Hwang</author></authors><title>Reports of the 2014 AAAI Spring Symposium Series.</title><venue>AI Magazine</venue><volume>35</volume><number>3</number><pages>70-76</pages><year>2014</year><type>Journal Articles</type><key>journals/aim/JainJKTMRWWBSLSHH14</key><ee>http://www.aaai.org/ojs/index.php/aimagazine/article/view/2550</ee><url>http://dblp.org/rec/journals/aim/JainJKTMRWWBSLSHH14</url></info>
+<url>URL#775254</url>
+</hit>
+<hit score="1" id="790181">
+<info><authors><author>Humaira Kamal</author><author>Alan Wagner</author></authors><title>An integrated fine-grain runtime system for MPI.</title><venue>Computing</venue><volume>96</volume><number>4</number><pages>293-309</pages><year>2014</year><type>Journal Articles</type><key>journals/computing/KamalW14</key><doi>10.1007/S00607-013-0329-X</doi><ee>https://doi.org/10.1007/s00607-013-0329-x</ee><url>http://dblp.org/rec/journals/computing/KamalW14</url></info>
+<url>URL#790181</url>
+</hit>
+<hit score="1" id="928178">
+<info><authors><author>Sarwar Alam</author><author>Humaira Kamal</author><author>Alan Wagner</author></authors><title>A scalable distributed skip list for range queries.</title><venue>HPDC</venue><pages>315-318</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/hpdc/AlamKW14</key><doi>10.1145/2600212.2600712</doi><ee>http://doi.acm.org/10.1145/2600212.2600712</ee><url>http://dblp.org/rec/conf/hpdc/AlamKW14</url></info>
+<url>URL#928178</url>
+</hit>
+<hit score="1" id="1449998">
+<info><authors><author>Brad Penoff</author><author>Alan Wagner</author><author>Michael Tüxen</author><author>Irene Rüngeler</author></authors><title>Portable and Performant Userspace SCTP Stack.</title><venue>ICCCN</venue><pages>1-9</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/icccn/PenoffWTR12</key><doi>10.1109/ICCCN.2012.6289222</doi><ee>https://doi.org/10.1109/ICCCN.2012.6289222</ee><url>http://dblp.org/rec/conf/icccn/PenoffWTR12</url></info>
+<url>URL#1449998</url>
+</hit>
+<hit score="1" id="1460163">
+<info><authors><author>Humaira Kamal</author><author>Alan Wagner</author></authors><title>Added Concurrency to Improve MPI Performance on Multicore.</title><venue>ICPP</venue><pages>229-238</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/icpp/KamalW12</key><doi>10.1109/ICPP.2012.15</doi><ee>https://doi.org/10.1109/ICPP.2012.15</ee><url>http://dblp.org/rec/conf/icpp/KamalW12</url></info>
+<url>URL#1460163</url>
+</hit>
+<hit score="1" id="1500122">
+<info><authors><author>Humaira Kamal</author><author>Alan Wagner</author></authors><title>An Integrated Runtime Scheduler for MPI.</title><venue>EuroMPI</venue><pages>173-182</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/pvm/KamalW12</key><doi>10.1007/978-3-642-33518-1_22</doi><ee>https://doi.org/10.1007/978-3-642-33518-1_22</ee><url>http://dblp.org/rec/conf/pvm/KamalW12</url></info>
+<url>URL#1500122</url>
+</hit>
+<hit score="1" id="1746508">
+<info><authors><author>Irene Rüngeler</author><author>Michael Tüxen</author><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>A new fast algorithm for connecting the INET simulation framework to applications in real-time.</title><venue>SimuTools</venue><pages>75-80</pages><year>2011</year><type>Conference and Workshop Papers</type><key>conf/simutools/RungelerTPW11</key><doi>10.4108/ICST.SIMUTOOLS.2011.245506</doi><ee>https://doi.org/10.4108/icst.simutools.2011.245506</ee><url>http://dblp.org/rec/conf/simutools/RungelerTPW11</url></info>
+<url>URL#1746508</url>
+</hit>
+<hit score="1" id="1831300">
+<info><authors><author>Brad Penoff</author><author>Humaira Kamal</author><author>Alan Wagner</author><author>Mike Tsai</author><author>Karol Mroz</author><author>Janardhan R. Iyengar</author></authors><title>Employing transport layer multi-railing in cluster networks.</title><venue>J. Parallel Distrib. Comput.</venue><volume>70</volume><number>3</number><pages>259-269</pages><year>2010</year><type>Journal Articles</type><key>journals/jpdc/PenoffKWTMI10</key><doi>10.1016/J.JPDC.2009.11.005</doi><ee>https://doi.org/10.1016/j.jpdc.2009.11.005</ee><url>http://dblp.org/rec/journals/jpdc/PenoffKWTMI10</url></info>
+<url>URL#1831300</url>
+</hit>
+<hit score="1" id="1905367">
+<info><authors><author>Humaira Kamal</author><author>Seyed M. Mirtaheri</author><author>Alan Wagner</author></authors><title>Scalability of communicators and groups in MPI.</title><venue>HPDC</venue><pages>264-275</pages><year>2010</year><type>Conference and Workshop Papers</type><key>conf/hpdc/KamalMW10</key><doi>10.1145/1851476.1851507</doi><ee>http://doi.acm.org/10.1145/1851476.1851507</ee><url>http://dblp.org/rec/conf/hpdc/KamalMW10</url></info>
+<url>URL#1905367</url>
+</hit>
+<hit score="1" id="1935312">
+<info><authors><author>Humaira Kamal</author><author>Alan Wagner</author></authors><title>FG-MPI - Fine-grain MPI for multicore and clusters.</title><venue>IPDPS Workshops</venue><pages>1-8</pages><year>2010</year><type>Conference and Workshop Papers</type><key>conf/ipps/KamalW10</key><doi>10.1109/IPDPSW.2010.5470773</doi><ee>https://doi.org/10.1109/IPDPSW.2010.5470773</ee><url>http://dblp.org/rec/conf/ipps/KamalW10</url></info>
+<url>URL#1935312</url>
+</hit>
+<hit score="1" id="2135804">
+<info><authors><author>Brad Penoff</author><author>Alan Wagner</author><author>Michael Tüxen</author><author>Irene Rüngeler</author></authors><title>MPI-NeTSim - A Network Simulation Module for MPI.</title><venue>ICPADS</venue><pages>464-471</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/icpads/PenoffWTR09</key><doi>10.1109/ICPADS.2009.116</doi><ee>https://doi.org/10.1109/ICPADS.2009.116</ee><url>http://dblp.org/rec/conf/icpads/PenoffWTR09</url></info>
+<url>URL#2135804</url>
+</hit>
+<hit score="1" id="2147008">
+<info><authors><author>Alan Wagner</author><author>Camilo Rostoker</author></authors><title>A lightweight stream-processing library using MPI.</title><venue>IPDPS</venue><pages>1-8</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/ipps/WagnerR09</key><doi>10.1109/IPDPS.2009.5160944</doi><ee>https://doi.org/10.1109/IPDPS.2009.5160944</ee><url>http://dblp.org/rec/conf/ipps/WagnerR09</url></info>
+<url>URL#2147008</url>
+</hit>
+<hit score="1" id="2147012">
+<info><authors><author>Jieren Wang</author><author>Camilo Rostoker</author><author>Alan Wagner</author></authors><title>A high performance pair trading application.</title><venue>IPDPS</venue><pages>1-8</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/ipps/WangRW09</key><doi>10.1109/IPDPS.2009.5161147</doi><ee>https://doi.org/10.1109/IPDPS.2009.5161147</ee><url>http://dblp.org/rec/conf/ipps/WangRW09</url></info>
+<url>URL#2147012</url>
+</hit>
+<hit score="1" id="2345575">
+<info><authors><author>Mike Tsai</author><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>A Hybrid MPI design using SCTP and iWARP.</title><venue>IPDPS</venue><pages>1-8</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/ipps/TsaiPW08</key><doi>10.1109/IPDPS.2008.4536144</doi><ee>https://doi.org/10.1109/IPDPS.2008.4536144</ee><url>http://dblp.org/rec/conf/ipps/TsaiPW08</url></info>
+<url>URL#2345575</url>
+</hit>
+<hit score="1" id="2530257">
+<info><authors><author>Camilo Rostoker</author><author>Alan Wagner</author><author>Holger H. Hoos</author></authors><title>A Parallel Workflow for Real-time Correlation and Clustering of High-Frequency Stock Market Data.</title><venue>IPDPS</venue><pages>1-10</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/ipps/RostokerWH07</key><doi>10.1109/IPDPS.2007.370216</doi><ee>https://doi.org/10.1109/IPDPS.2007.370216</ee><url>http://dblp.org/rec/conf/ipps/RostokerWH07</url></info>
+<url>URL#2530257</url>
+</hit>
+<hit score="1" id="2550544">
+<info><authors><author>Brad Penoff</author><author>Mike Tsai</author><author>Janardhan R. Iyengar</author><author>Alan Wagner</author></authors><title>Using CMT in SCTP-Based MPI to Exploit Multiple Interfaces in Cluster Nodes.</title><venue>PVM/MPI</venue><pages>204-212</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/pvm/PenoffTIW07</key><doi>10.1007/978-3-540-75416-9_31</doi><ee>https://doi.org/10.1007/978-3-540-75416-9_31</ee><url>http://dblp.org/rec/conf/pvm/PenoffTIW07</url></info>
+<url>URL#2550544</url>
+</hit>
+<hit score="1" id="2581782">
+<info><authors><author>James Chilson</author><author>Raymond T. Ng</author><author>Alan Wagner</author><author>Ruben H. Zamar</author></authors><title>Parallel Computation of High-Dimensional Robust Correlation and Covariance Matrices.</title><venue>Algorithmica</venue><volume>45</volume><number>3</number><pages>403-431</pages><year>2006</year><type>Journal Articles</type><key>journals/algorithmica/ChilsonNWZ06</key><doi>10.1007/S00453-006-1219-9</doi><ee>https://doi.org/10.1007/s00453-006-1219-9</ee><url>http://dblp.org/rec/journals/algorithmica/ChilsonNWZ06</url></info>
+<url>URL#2581782</url>
+</hit>
+<hit score="1" id="2698033">
+<info><authors><author>Humaira Kamal</author><author>Brad Penoff</author><author>Mike Tsai</author><author>E. Vong</author><author>Alan Wagner</author></authors><title>Using SCTP to hide latency in MPI programs.</title><venue>IPDPS</venue><year>2006</year><type>Conference and Workshop Papers</type><key>conf/ipps/KamalPTVW06</key><doi>10.1109/IPDPS.2006.1639391</doi><ee>https://doi.org/10.1109/IPDPS.2006.1639391</ee><url>http://dblp.org/rec/conf/ipps/KamalPTVW06</url></info>
+<url>URL#2698033</url>
+</hit>
+<hit score="1" id="2698139">
+<info><authors><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>Towards MPI progression layer elimination with TCP and SCTP.</title><venue>IPDPS</venue><year>2006</year><type>Conference and Workshop Papers</type><key>conf/ipps/PenoffW06</key><doi>10.1109/IPDPS.2006.1639497</doi><ee>https://doi.org/10.1109/IPDPS.2006.1639497</ee><url>http://dblp.org/rec/conf/ipps/PenoffW06</url></info>
+<url>URL#2698139</url>
+</hit>
+<hit score="1" id="2808259">
+<info><authors><author>Humaira Kamal</author><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>Evaluating transport level protocols for MPI in the Internet.</title><venue>Communications in Computing</venue><pages>71-77</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/cic/KamalPW05</key><url>http://dblp.org/rec/conf/cic/KamalPW05</url></info>
+<url>URL#2808259</url>
+</hit>
+<hit score="1" id="2810809">
+<info><authors><author>Humaira Kamal</author><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>SCTP-Based Middleware for MPI in Wide-Area Networks.</title><venue>CNSR</venue><pages>157-162</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/cnsr/KamalPW05</key><doi>10.1109/CNSR.2005.56</doi><ee>https://doi.org/10.1109/CNSR.2005.56</ee><url>http://dblp.org/rec/conf/cnsr/KamalPW05</url></info>
+<url>URL#2810809</url>
+</hit>
+<hit score="1" id="2870439">
+<info><authors><author>Humaira Kamal</author><author>Brad Penoff</author><author>Alan Wagner</author></authors><title>SCTP versus TCP for MPI.</title><venue>SC</venue><pages>30</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/sc/KamalPW05</key><doi>10.1109/SC.2005.63</doi><ee>https://doi.org/10.1109/SC.2005.63</ee><url>http://dblp.org/rec/conf/sc/KamalPW05</url></info>
+<url>URL#2870439</url>
+</hit>
+<hit score="1" id="2989066">
+<info><authors><author>James Chilson</author><author>Raymond T. Ng</author><author>Alan Wagner</author><author>Ruben H. Zamar</author></authors><title>Parallel computation of high dimensional robust correlation and covariance matrices.</title><venue>KDD</venue><pages>533-538</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/kdd/ChilsonNWZ04</key><doi>10.1145/1014052.1014115</doi><ee>http://doi.acm.org/10.1145/1014052.1014115</ee><url>http://dblp.org/rec/conf/kdd/ChilsonNWZ04</url></info>
+<url>URL#2989066</url>
+</hit>
+<hit score="1" id="3351346">
+<info><authors><author>Soroush Momen-Pour</author><author>Alan Wagner</author></authors><title>Parallel Partitioned-Cube Algorithm.</title><venue>PDPTA</venue><year>2000</year><type>Conference and Workshop Papers</type><key>conf/pdpta/Momen-PourW00</key><url>http://dblp.org/rec/conf/pdpta/Momen-PourW00</url></info>
+<url>URL#3351346</url>
+</hit>
+<hit score="1" id="3416051">
+<info><authors><author>Soroush Momen-Pour</author><author>Alan Wagner</author></authors><title>Java Threads and Monitors.</title><venue>PDPTA</venue><pages>2059-2065</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/pdpta/Momen-PourW99</key><url>http://dblp.org/rec/conf/pdpta/Momen-PourW99</url></info>
+<url>URL#3416051</url>
+</hit>
+<hit score="1" id="3609936">
+<info><authors><author>David Feldcamp</author><author>Alan Wagner</author></authors><title>Using the Parsec environment to implement a high-performance processor farm.</title><venue>HICSS</venue><pages>212-221</pages><year>1995</year><type>Conference and Workshop Papers</type><key>conf/hicss/FeldcampW95</key><doi>10.1109/HICSS.1995.375459</doi><ee>https://doi.org/10.1109/HICSS.1995.375459</ee><url>http://dblp.org/rec/conf/hicss/FeldcampW95</url></info>
+<url>URL#3609936</url>
+</hit>
+<hit score="1" id="3671575">
+<info><authors><author>Alan Wagner</author><author>Derek G. Corneil</author></authors><title>On the Complexity of the Embedding Problem for Hypercube Related Graphs.</title><venue>Discrete Applied Mathematics</venue><volume>43</volume><number>1</number><pages>75-95</pages><year>1993</year><type>Journal Articles</type><key>journals/dam/WagnerC93</key><doi>10.1016/0166-218X(93)90170-S</doi><ee>https://doi.org/10.1016/0166-218X(93)90170-S</ee><url>http://dblp.org/rec/journals/dam/WagnerC93</url></info>
+<url>URL#3671575</url>
+</hit>
+<hit score="1" id="3771244">
+<info><authors><author>Alan Wagner</author><author>Derek G. Corneil</author></authors><title>Embedding Trees in a Hypercube is NP-Complete.</title><venue>SIAM J. Comput.</venue><volume>19</volume><number>3</number><pages>570-590</pages><year>1990</year><type>Journal Articles</type><key>journals/siamcomp/WagnerC90</key><doi>10.1137/0219038</doi><ee>https://doi.org/10.1137/0219038</ee><url>http://dblp.org/rec/journals/siamcomp/WagnerC90</url></info>
+<url>URL#3771244</url>
+</hit>
+<hit score="1" id="3870089">
+<info><authors><author>Subrata Dasgupta</author><author>Alan Wagner</author></authors><title>The use of hoare logic in the verification of horizontal microprograms.</title><venue>International Journal of Parallel Programming</venue><volume>13</volume><number>6</number><pages>461-490</pages><year>1984</year><type>Journal Articles</type><key>journals/ijpp/DasguptaW84</key><doi>10.1007/BF00985823</doi><ee>https://doi.org/10.1007/BF00985823</ee><url>http://dblp.org/rec/journals/ijpp/DasguptaW84</url></info>
+<url>URL#3870089</url>
+</hit>
+</hits>
+</result>

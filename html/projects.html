@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Networks, Systems, and Security Lab at UBC</title>
+	<link rel="stylesheet" href="../css/nss.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+
+	<style type="text/css">
+		body{
+			padding-top: 70px;
+		}
+	</style>
+</head>
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container" id="nav">
+			<div class="navbar-header">
+				<a class="navbar-brand">NSS Lab @ UBC</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" class="navlink navtop">Home</a></li>
+					<li><a href="people.html" class="navlink navtop">People</a></li>
+					<li class="active"><a href="projects.html" class="navlink navtop">Research</a></li>
+					<li><a href="pubs.html" class="navlink navtop">Publications</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- main content starts -->
+	<div class="container" id="main">
+		
+		<p>
+			<h2>Research</h2>
+
+			<!-- Software Engineering for Systems -->
+			<!-- Operating Systems -->
+			<!-- Mobile Systems -->
+			<!-- Networked Systems -->
+			<!-- Security -->
+			<!-- Data Privacy -->
+
+		</p>
+	
+		
+
+		<table class="projtable" cellpadding="8px">
+
+		<!--tr>
+			<td id="proj-td" style="width:33%">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Operating Systems
+				</p>
+				<p class="projdesc">
+					OS Desc (I don't know)
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Mobile Systems
+				</p>
+				<p class="projdesc">
+					Mobile Desc (TrustZone, TrustedCapsules)
+				</p>
+			</td>
+		</tr-->
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+			      <img class="logo" src="../files/logos/disagg-logo.jpg" alt="disagg-logo" />
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Networked and distributed systems
+				</p>
+				<p class="projdesc">
+					We investigate new design principles in datacenter system design and operation.
+					<ul>
+						<li>Decibel: a system for storage sharing in disaggregation (<a href="https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/nanavati">NSDI 2017</a>)</li>
+						<li>Disaggregated datacenters: fate sharing considerations and programmable fault tolerance (<a href="https://conferences.sigcomm.org/hotnets/2017/program.html#">HotNets 2017</a>) </li>
+						<li>NetSolver: virtual data center and NFV chain allocation (<a href="http://www.cs.ubc.ca/~bestchai/papers/netsolver-ijcai17.pdf">IJCAI 2017</a>)</li>
+                                                <li>New data structures and algortihms to characterize storage workloads (<a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/wires">OSDI 2014</a>)</li>
+						<!-- <li><a href="https://github.com/FRuffy/BlueBridge">BlueBridge</a>: Global shared memory in rack scale deployments</li> -->
+					</ul>	
+				</p>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+			  <img class="logo" src="../files/logos/tcapsules-logo.jpg" alt="tcapsules-logo" />
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Security
+				</p>
+				<p class="projdesc">
+					We develop systems to protect users' data and activities using a variety of approaches.
+					<ul>
+					  <!-- <li>TrustedCapsules: Programmable access control extending beyong system boundaries (<i>In Submission</i>)</li> -->
+                                          <li>Shuffler: Fast and Deployable Continuous Code Re-Randomization. (<a href="https://www.usenix.org/conference/osdi16/technical-sessions/presentation/williams-king">OSDI 2016</a>)</li>
+                                          <li>Theory and techniques for quantifying information flow (<a href="http://ieeexplore.ieee.org/document/7467345/">EuroS&P 2016</a>)</li>
+
+						<li>Micasa: Preserving user data functionality after service end-of-life in hosted applications (<a href="http://www.socc2013.org/home/program/a22-legare.pdf">SoCC 2013</a>) </li>
+					</ul>
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td id="proj-td" style="width:33%">
+			      <img class="logo" src="../files/logos/tormentor-logo.jpg" alt="tormentor-logo" />
+			</td>
+			<td id="proj-td">
+				<p class="projtitle">
+					Privacy
+				</p>
+				<p class="projdesc">
+					We use modern privacy-preserving methods to provide new guarantees to current system design paradigms. 
+					<ul>
+					  
+
+	                                  <li><a href="https://github.com/DistributedML/InsuLearn">InsuLearn</a>: a system for building shared models across privately owned medical data (<a href="https://www.cs.ubc.ca/~bestchai/papers/mlmi17-distributed-ml.pdf">MICCAI MLMI 2017</a>)</li>
+                                          <li><a href="https://bestchai.github.io/social-insider-study/">Insider attacks</a>: we characterized physical insider attacks on Facebook (<a href="http://www.cs.ubc.ca/~bestchai/papers/social-insider-chi17.pdf">CHI 2017</a>)</li>
+                                          
+                                          <li>Beeswax: A client-side platform for private web applications (<a href="https://petsymposium.org/2016/files/papers/Beeswax__a_platform_for_private_web_apps.pdf">PETS 2016</a>)</li>
+
+						<!-- <li><a href="https://github.com/DistributedML/TorML">TorMentor</a>: an anonymous messaging system for collaborative machine learning (<i>In Submission</i>) </li> -->
+					</ul>		
+				</p>
+			</td>
+		</tr>
+
+		<tr>
+			
+			<td id="proj-td" style="width:33%">
+			      <img class="logo" src="../files/logos/dinv-logo.jpg" alt="dinv-logo" />
+			      <!-- <img class="logo" src="../files/logos/timesquared-logo.png" alt="timesquared-logo" /> -->
+			</td>
+
+			<td id="proj-td">
+				<p class="projtitle">
+					Software engineering for systems
+				</p>
+				<p class="projdesc">
+					We research processes, techniques, and tools to help engineer complex systems.
+					<ul>
+					  <li>NetCheck: diagnosing networked applications from blackbox syscall traces (<a href="http://www.cs.ubc.ca/~bestchai/papers/nsdi14_netcheck.pdf">NSDI 2014</a>)</li> 
+					  <li><a href="https://bitbucket.org/bestchai/dinv/">Dinv</a>: a distributed invariant miner and checker (<a href="https://www.cs.ubc.ca/~bestchai/papers/dinv-poster-sosp15.pdf">SOSP 2015 poster</a>)
+					  <li><a href="https://bestchai.bitbucket.io/shiviz/"> ShiViz</a>/<a href="https://bestchai.bitbucket.io/tsviz/">TSViz</a>: tools to visualize distributed and multi-threaded systems (<a href="https://www.cs.ubc.ca/~bestchai/papers/icse14_shivector_shiviz_poster_abstract.pdf">ICSE 2014</a>, <a href="https://www.cs.ubc.ca/~bestchai/papers/tsviz-icse17tool.pdf">ICSE 2017</a>)</li>
+					  <li> <a href="https://bitbucket.org/whiteoutblackout/pgo">PGo</a>: a compiler from PlusCal formal specifications to Go implementions (<a href="https://src.acm.org/winners/2018">SOSP 2017 SRC Winner</a>) </li>
+					</ul>
+				</p>
+			</td>
+
+		</tr>
+
+	
+		</table>
+
+
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p align="center">Last updated November 15, 2017</p>
+				</footer>
+			</div>
+		</div>
+
+	</div> <!-- container -->
+
+	<!-- main content ends -->
+
+	</body>
+</html>                                		
