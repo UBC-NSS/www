@@ -16,6 +16,7 @@ Add a photo there, and modify the nivoSlider section in index.html to include it
 
 ### Photos: Headshots
 I use gThumb to crop the image into a square, and then save it in the /files/people-photos directory.  
+IMPORTANT: Due to noted security concerns, downsize the image to a maximum size of 300x300.
 
 ### Publications: DBLP Query Tool
 Just navigate to the /dynamic-dblp directory and call make. 

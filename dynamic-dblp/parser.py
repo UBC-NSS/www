@@ -6,7 +6,7 @@ import pdb
 
 keys_i_care_about = ['title', 'venue', 'year', 'ee']
 year_list = list()
-starting_year = 2017
+starting_year = 2018
 
 
 def parse_faculty_obj(pub_dict, faculty_file):

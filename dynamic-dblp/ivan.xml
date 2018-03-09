@@ -1,131 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="225601">:facetid:author:Ivan_Beschastnikh</query>
+<query id="23049">:facetid:author:Ivan_Beschastnikh</query>
 <status code="200">OK</status>
-<time unit="msecs">1.56</time>
+<time unit="msecs">2.82</time>
 <completions total="1" computed="1" sent="1">
-<c sc="43" dc="43" oc="43" id="3085319">:facetid:author:Ivan_Beschastnikh</c>
+<c sc="43" dc="43" oc="43" id="3180422">:facetid:author:Ivan_Beschastnikh</c>
 </completions>
 <hits total="43" computed="43" sent="30" first="0">
-<hit score="1" id="112621">
+<hit score="1" id="169978">
 <info><authors><author>Wali Ahmed Usmani</author><author>Diogo Marques</author><author>Ivan Beschastnikh</author><author>Konstantin Beznosov</author><author>Tiago João Vieira Guerreiro</author><author>Luís Carriço</author></authors><title>Characterizing Social Insider Attacks on Facebook.</title><venue>CHI</venue><pages>3810-3820</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/chi/UsmaniMBBGC17</key><doi>10.1145/3025453.3025901</doi><ee>http://doi.acm.org/10.1145/3025453.3025901</ee><url>http://dblp.org/rec/conf/chi/UsmaniMBBGC17</url></info>
-<url>URL#112621</url>
+<url>URL#169978</url>
 </hit>
-<hit score="1" id="146962">
+<hit score="1" id="218817">
 <info><authors><author>Ivan Beschastnikh</author><author>Mircea Filip Lungu</author><author>Yanyan Zhuang</author></authors><title>Accelerating Software Engineering Research Adoption with Analysis Bots.</title><venue>ICSE-NIER</venue><pages>35-38</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icse/BeschastnikhLZ17</key><doi>10.1109/ICSE-NIER.2017.17</doi><ee>https://doi.org/10.1109/ICSE-NIER.2017.17</ee><url>http://dblp.org/rec/conf/icse/BeschastnikhLZ17</url></info>
-<url>URL#146962</url>
+<url>URL#218817</url>
 </hit>
-<hit score="1" id="147276">
+<hit score="1" id="219131">
 <info><authors><author>Matheus Nunes</author><author>Harjeet Lalh</author><author>Ashaya Sharma</author><author>Augustine Wong</author><author>Svetozar Miucin</author><author>Alexandra Fedorova</author><author>Ivan Beschastnikh</author></authors><title>Studying multi-threaded behavior with TSViz.</title><venue>ICSE</venue><pages>35-38</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icse/NunesLSWMFB17</key><doi>10.1109/ICSE-C.2017.9</doi><ee>https://doi.org/10.1109/ICSE-C.2017.9</ee><url>http://dblp.org/rec/conf/icse/NunesLSWMFB17</url></info>
-<url>URL#147276</url>
+<url>URL#219131</url>
 </hit>
-<hit score="1" id="147549">
-<info><authors><author>Keheliya Gallaba</author><author>Quinn Hanam</author><author>Ali Mesbah 0001</author><author>Ivan Beschastnikh</author></authors><title>Refactoring Asynchrony in JavaScript.</title><venue>ICSME</venue><pages>353-363</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icsm/GallabaH0B17</key><doi>10.1109/ICSME.2017.83</doi><ee>http://doi.ieeecomputersociety.org/10.1109/ICSME.2017.83</ee><url>http://dblp.org/rec/conf/icsm/GallabaH0B17</url></info>
-<url>URL#147549</url>
+<hit score="1" id="219509">
+<info><authors><author>Keheliya Gallaba</author><author>Quinn Hanam</author><author>Ali Mesbah 0001</author><author>Ivan Beschastnikh</author></authors><title>Refactoring Asynchrony in JavaScript.</title><venue>ICSME</venue><pages>353-363</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icsm/GallabaH0B17</key><doi>10.1109/ICSME.2017.83</doi><ee>https://doi.org/10.1109/ICSME.2017.83</ee><url>http://dblp.org/rec/conf/icsm/GallabaH0B17</url></info>
+<url>URL#219509</url>
 </hit>
-<hit score="1" id="147582">
-<info><authors><author>Adalberto R. Sampaio</author><author>Harshavardhan Kadiyala</author><author>Bo Hu</author><author>John Steinbacher</author><author>Tony Erwin</author><author>Nelson Rosa</author><author>Ivan Beschastnikh</author><author>Julia Rubin</author></authors><title>Supporting Microservice Evolution.</title><venue>ICSME</venue><pages>539-543</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icsm/SampaioKHSERBR17</key><doi>10.1109/ICSME.2017.63</doi><ee>http://doi.ieeecomputersociety.org/10.1109/ICSME.2017.63</ee><url>http://dblp.org/rec/conf/icsm/SampaioKHSERBR17</url></info>
-<url>URL#147582</url>
+<hit score="1" id="219542">
+<info><authors><author>Adalberto R. Sampaio</author><author>Harshavardhan Kadiyala</author><author>Bo Hu</author><author>John Steinbacher</author><author>Tony Erwin</author><author>Nelson Rosa</author><author>Ivan Beschastnikh</author><author>Julia Rubin</author></authors><title>Supporting Microservice Evolution.</title><venue>ICSME</venue><pages>539-543</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/icsm/SampaioKHSERBR17</key><doi>10.1109/ICSME.2017.63</doi><ee>https://doi.org/10.1109/ICSME.2017.63</ee><url>http://dblp.org/rec/conf/icsm/SampaioKHSERBR17</url></info>
+<url>URL#219542</url>
 </hit>
-<hit score="1" id="150010">
+<hit score="1" id="224642">
 <info><authors><author>Sam Bayless</author><author>Nodir Kodirov</author><author>Ivan Beschastnikh</author><author>Holger H. Hoos</author><author>Alan J. Hu</author></authors><title>Scalable Constraint-based Virtual Data Center Allocation.</title><venue>IJCAI</venue><pages>546-554</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/ijcai/BaylessKBHH17</key><doi>10.24963/IJCAI.2017/77</doi><ee>https://doi.org/10.24963/ijcai.2017/77</ee><url>http://dblp.org/rec/conf/ijcai/BaylessKBHH17</url></info>
-<url>URL#150010</url>
+<url>URL#224642</url>
 </hit>
-<hit score="1" id="162844">
+<hit score="1" id="243669">
 <info><authors><author>Alborz Amir-Khalili</author><author>Soheil Kianzad</author><author>Rafeef Abugharbieh</author><author>Ivan Beschastnikh</author></authors><title>Scalable and Fault Tolerant Platform for Distributed Learning on Private Medical Data.</title><venue>MLMI@MICCAI</venue><pages>176-184</pages><year>2017</year><type>Conference and Workshop Papers</type><key>conf/miccai/Amir-KhaliliKAB17</key><doi>10.1007/978-3-319-67389-9_21</doi><ee>https://doi.org/10.1007/978-3-319-67389-9_21</ee><url>http://dblp.org/rec/conf/miccai/Amir-KhaliliKAB17</url></info>
-<url>URL#162844</url>
+<url>URL#243669</url>
 </hit>
-<hit score="1" id="187119">
+<hit score="1" id="279604">
 <info><authors><author>Alexandra Fedorova</author><author>Andrew Warfield</author><author>Ivan Beschastnikh</author><author>Rachit Agarwal 0001</author></authors><title>Proceedings of the 16th Workshop on Hot Topics in Operating Systems, HotOS 2017, Whistler, BC, Canada, May 8-10, 2017</title><venue>HotOS</venue><publisher>ACM</publisher><year>2017</year><type>Editorship</type><key>conf/hotos/2017</key><doi>10.1145/3102980</doi><ee>http://doi.acm.org/10.1145/3102980</ee><url>http://dblp.org/rec/conf/hotos/2017</url></info>
-<url>URL#187119</url>
+<url>URL#279604</url>
 </hit>
-<hit score="1" id="230021">
+<hit score="1" id="328796">
 <info><authors><author>Ivan Beschastnikh</author><author>Patty Wang</author><author>Yuriy Brun</author><author>Michael D. Ernst</author></authors><title>Debugging distributed systems.</title><venue>Commun. ACM</venue><volume>59</volume><number>8</number><pages>32-37</pages><year>2016</year><type>Journal Articles</type><key>journals/cacm/BeschastnikhWBE16</key><doi>10.1145/2909480</doi><ee>http://doi.acm.org/10.1145/2909480</ee><url>http://dblp.org/rec/journals/cacm/BeschastnikhWBE16</url></info>
-<url>URL#230021</url>
+<url>URL#328796</url>
 </hit>
-<hit score="1" id="297468">
+<hit score="1" id="397265">
 <info><authors><author>Ivan Beschastnikh</author><author>Patty Wang</author><author>Yuriy Brun</author><author>Michael D. Ernst</author></authors><title>Debugging Distributed Systems.</title><venue>ACM Queue</venue><volume>14</volume><number>2</number><pages>50</pages><year>2016</year><type>Journal Articles</type><key>journals/queue/BeschastnikhWBE16</key><doi>10.1145/2927299.2940294</doi><ee>http://doi.acm.org/10.1145/2927299.2940294</ee><url>http://dblp.org/rec/journals/queue/BeschastnikhWBE16</url></info>
-<url>URL#297468</url>
+<url>URL#397265</url>
 </hit>
-<hit score="1" id="399852">
+<hit score="1" id="501891">
 <info><authors><author>Tony Ohmann</author><author>Ryan Stanley</author><author>Ivan Beschastnikh</author><author>Yuriy Brun</author></authors><title>Visually reasoning about system and resource behavior.</title><venue>ICSE</venue><pages>601-604</pages><year>2016</year><type>Conference and Workshop Papers</type><key>conf/icse/OhmannSBB16</key><doi>10.1145/2889160.2889166</doi><ee>http://doi.acm.org/10.1145/2889160.2889166</ee><url>http://dblp.org/rec/conf/icse/OhmannSBB16</url></info>
-<url>URL#399852</url>
+<url>URL#501891</url>
 </hit>
-<hit score="1" id="430709">
+<hit score="1" id="534771">
 <info><authors><author>Daniel Rozenberg</author><author>Ivan Beschastnikh</author><author>Fabian Kosmale</author><author>Valerie Poser</author><author>Heiko Becker</author><author>Marc Palyart</author><author>Gail C. Murphy</author></authors><title>Comparing repositories visually with repograms.</title><venue>MSR</venue><pages>109-120</pages><year>2016</year><type>Conference and Workshop Papers</type><key>conf/msr/RozenbergBKPBPM16</key><doi>10.1145/2901739.2901768</doi><ee>http://doi.acm.org/10.1145/2901739.2901768</ee><url>http://dblp.org/rec/conf/msr/RozenbergBKPBPM16</url></info>
-<url>URL#430709</url>
+<url>URL#534771</url>
 </hit>
-<hit score="1" id="597274">
+<hit score="1" id="702663">
 <info><authors><author>Ivan Beschastnikh</author><author>Yuriy Brun</author><author>Jenny Abrahamson</author><author>Michael D. Ernst</author><author>Arvind Krishnamurthy</author></authors><title>Using Declarative Specification to Improve the Understanding, Extensibility, and Comparison of Model-Inference Algorithms.</title><venue>IEEE Trans. Software Eng.</venue><volume>41</volume><number>4</number><pages>408-428</pages><year>2015</year><type>Journal Articles</type><key>journals/tse/BeschastnikhBAE15</key><doi>10.1109/TSE.2014.2369047</doi><ee>https://doi.org/10.1109/TSE.2014.2369047</ee><url>http://dblp.org/rec/journals/tse/BeschastnikhBAE15</url></info>
-<url>URL#597274</url>
+<url>URL#702663</url>
 </hit>
-<hit score="1" id="642166">
+<hit score="1" id="748907">
 <info><authors><author>Keheliya Gallaba</author><author>Ali Mesbah 0001</author><author>Ivan Beschastnikh</author></authors><title>Don&apos;t Call Us, We&apos;ll Call You - Characterizing Callbacks in Javascript.</title><venue>ESEM</venue><pages>247-256</pages><year>2015</year><type>Conference and Workshop Papers</type><key>conf/esem/GallabaMB15</key><doi>10.1109/ESEM.2015.7321196</doi><ee>https://doi.org/10.1109/ESEM.2015.7321196</ee><url>http://dblp.org/rec/conf/esem/GallabaMB15</url></info>
-<url>URL#642166</url>
+<url>URL#748907</url>
 </hit>
-<hit score="1" id="701117">
+<hit score="1" id="808957">
 <info><authors><author>Tien-Duy B. Le</author><author>Xuan-Bach D. Le</author><author>David Lo</author><author>Ivan Beschastnikh</author></authors><title>Synergizing Specification Miners through Model Fissions and Fusions (T).</title><venue>ASE</venue><pages>115-125</pages><year>2015</year><type>Conference and Workshop Papers</type><key>conf/kbse/LeLLB15</key><doi>10.1109/ASE.2015.83</doi><ee>https://doi.org/10.1109/ASE.2015.83</ee><url>http://dblp.org/rec/conf/kbse/LeLLB15</url></info>
-<url>URL#701117</url>
+<url>URL#808957</url>
 </hit>
-<hit score="1" id="701118">
+<hit score="1" id="808958">
 <info><authors><author>Caroline Lemieux</author><author>Ivan Beschastnikh</author></authors><title>Investigating Program Behavior Using the Texada LTL Specifications Miner.</title><venue>ASE</venue><pages>870-875</pages><year>2015</year><type>Conference and Workshop Papers</type><key>conf/kbse/LemieuxB15</key><doi>10.1109/ASE.2015.94</doi><ee>https://doi.org/10.1109/ASE.2015.94</ee><url>http://dblp.org/rec/conf/kbse/LemieuxB15</url></info>
-<url>URL#701118</url>
+<url>URL#808958</url>
 </hit>
-<hit score="1" id="701119">
+<hit score="1" id="808959">
 <info><authors><author>Caroline Lemieux</author><author>Dennis Park</author><author>Ivan Beschastnikh</author></authors><title>General LTL Specification Mining (T).</title><venue>ASE</venue><pages>81-92</pages><year>2015</year><type>Conference and Workshop Papers</type><key>conf/kbse/LemieuxPB15</key><doi>10.1109/ASE.2015.71</doi><ee>https://doi.org/10.1109/ASE.2015.71</ee><url>http://dblp.org/rec/conf/kbse/LemieuxPB15</url></info>
-<url>URL#701119</url>
+<url>URL#808959</url>
 </hit>
-<hit score="1" id="747206">
+<hit score="1" id="855517">
 <info><authors><author>Ivan Beschastnikh</author><author>Wouter Joosen</author></authors><title>Proceedings of the Doctoral Symposium of the 16th International Middleware Conference, Middleware Doct Symposium 2015, Vancouver, BC, Canada, December 7-11, 2015</title><venue>Middleware Doctoral Symposium</venue><publisher>ACM</publisher><year>2015</year><type>Editorship</type><key>conf/middleware/2015ds</key><doi>10.1145/2843966</doi><ee>http://doi.acm.org/10.1145/2843966</ee><url>http://dblp.org/rec/conf/middleware/2015ds</url></info>
-<url>URL#747206</url>
+<url>URL#855517</url>
 </hit>
-<hit score="1" id="948426">
+<hit score="1" id="1059111">
 <info><authors><author>Jenny Abrahamson</author><author>Ivan Beschastnikh</author><author>Yuriy Brun</author><author>Michael D. Ernst</author></authors><title>Shedding light on distributed system executions.</title><venue>ICSE Companion</venue><pages>598-599</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/icse/AbrahamsonBBE14</key><doi>10.1145/2591062.2591134</doi><ee>http://doi.acm.org/10.1145/2591062.2591134</ee><url>http://dblp.org/rec/conf/icse/AbrahamsonBBE14</url></info>
-<url>URL#948426</url>
+<url>URL#1059111</url>
 </hit>
-<hit score="1" id="948475">
+<hit score="1" id="1059160">
 <info><authors><author>Ivan Beschastnikh</author><author>Yuriy Brun</author><author>Michael D. Ernst</author><author>Arvind Krishnamurthy</author></authors><title>Inferring models of concurrent systems from logs of their behavior with CSight.</title><venue>ICSE</venue><pages>468-479</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/icse/BeschastnikhBEK14</key><doi>10.1145/2568225.2568246</doi><ee>http://doi.acm.org/10.1145/2568225.2568246</ee><url>http://dblp.org/rec/conf/icse/BeschastnikhBEK14</url></info>
-<url>URL#948475</url>
+<url>URL#1059160</url>
 </hit>
-<hit score="1" id="948747">
+<hit score="1" id="1059432">
 <info><authors><author>Tony Ohmann</author><author>Kevin Thai</author><author>Ivan Beschastnikh</author><author>Yuriy Brun</author></authors><title>Mining precise performance-aware behavioral models from existing instrumentation.</title><venue>ICSE Companion</venue><pages>484-487</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/icse/OhmannTBB14</key><doi>10.1145/2591062.2591107</doi><ee>http://doi.acm.org/10.1145/2591062.2591107</ee><url>http://dblp.org/rec/conf/icse/OhmannTBB14</url></info>
-<url>URL#948747</url>
+<url>URL#1059432</url>
 </hit>
-<hit score="1" id="956585">
+<hit score="1" id="1068126">
 <info><authors><author>Yanyan Zhuang</author><author>Leonard Law</author><author>Albert Rafetseder</author><author>Lai Wang</author><author>Ivan Beschastnikh</author><author>Justin Cappos</author></authors><title>Sensibility testbed - An internet-wide cloud platform for programmable exploration of mobile devices.</title><venue>INFOCOM Workshops</venue><pages>139-140</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/infocom/ZhuangLRWBC14</key><doi>10.1109/INFCOMW.2014.6849194</doi><ee>https://doi.org/10.1109/INFCOMW.2014.6849194</ee><url>http://dblp.org/rec/conf/infocom/ZhuangLRWBC14</url></info>
-<url>URL#956585</url>
+<url>URL#1068126</url>
 </hit>
-<hit score="1" id="970167">
+<hit score="1" id="1081708">
 <info><authors><author>Tony Ohmann</author><author>Michael Herzberg</author><author>Sebastian Fiss</author><author>Armand Halbert</author><author>Marc Palyart</author><author>Ivan Beschastnikh</author><author>Yuriy Brun</author></authors><title>Behavioral resource-aware model inference.</title><venue>ASE</venue><pages>19-30</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/kbse/OhmannHFHPBB14</key><doi>10.1145/2642937.2642988</doi><ee>http://doi.acm.org/10.1145/2642937.2642988</ee><url>http://dblp.org/rec/conf/kbse/OhmannHFHPBB14</url></info>
-<url>URL#970167</url>
+<url>URL#1081708</url>
 </hit>
-<hit score="1" id="981429">
+<hit score="1" id="1093054">
 <info><authors><author>Yanyan Zhuang</author><author>Eleni Gessiou</author><author>Steven Portzer</author><author>Fraida Fund</author><author>Monzur Muhammad</author><author>Ivan Beschastnikh</author><author>Justin Cappos</author></authors><title>NetCheck - Network Diagnoses from Blackbox Traces.</title><venue>NSDI</venue><pages>115-128</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/nsdi/ZhuangGPFMBC14</key><ee>https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/zhuang</ee><url>http://dblp.org/rec/conf/nsdi/ZhuangGPFMBC14</url></info>
-<url>URL#981429</url>
+<url>URL#1093054</url>
 </hit>
-<hit score="1" id="1004962">
+<hit score="1" id="1116657">
 <info><authors><author>Daniel Rozenberg</author><author>Ivan Beschastnikh</author></authors><title>Templated Visualization of Object State with Vebugger.</title><venue>VISSOFT</venue><pages>107-111</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/vissoft/RozenbergB14</key><doi>10.1109/VISSOFT.2014.26</doi><ee>https://doi.org/10.1109/VISSOFT.2014.26</ee><url>http://dblp.org/rec/conf/vissoft/RozenbergB14</url></info>
-<url>URL#1004962</url>
+<url>URL#1116657</url>
 </hit>
-<hit score="1" id="1118120">
+<hit score="1" id="1230603">
 <info><authors><author>Ivan Beschastnikh</author></authors><title>Presentation patterns - techniques for crafting better presentations by Neal Ford, Matthew McCullough and Nathaniel Schutta.</title><venue>ACM SIGSOFT Software Engineering Notes</venue><volume>38</volume><number>5</number><pages>67</pages><year>2013</year><type>Journal Articles</type><key>journals/sigsoft/Beschastnikh13</key><doi>10.1145/2507288.2507291</doi><ee>http://doi.acm.org/10.1145/2507288.2507291</ee><url>http://dblp.org/rec/journals/sigsoft/Beschastnikh13</url></info>
-<url>URL#1118120</url>
+<url>URL#1230603</url>
 </hit>
-<hit score="1" id="1211308">
+<hit score="1" id="1325199">
 <info><authors><author>Ivan Beschastnikh</author><author>Yuriy Brun</author><author>Jenny Abrahamson</author><author>Michael D. Ernst</author><author>Arvind Krishnamurthy</author></authors><title>Unifying FSM-inference algorithms through declarative specification.</title><venue>ICSE</venue><pages>252-261</pages><year>2013</year><type>Conference and Workshop Papers</type><key>conf/icse/BeschastnikhBAEK13</key><doi>10.1109/ICSE.2013.6606571</doi><ee>https://doi.org/10.1109/ICSE.2013.6606571</ee><url>http://dblp.org/rec/conf/icse/BeschastnikhBAEK13</url></info>
-<url>URL#1211308</url>
+<url>URL#1325199</url>
 </hit>
-<hit score="1" id="1211736">
+<hit score="1" id="1325627">
 <info><authors><author>Roykrong Sukkerd</author><author>Ivan Beschastnikh</author><author>Jochen Wuttke</author><author>Sai Zhang</author><author>Yuriy Brun</author></authors><title>Understanding regression failures through test-passing and test-failing code changes.</title><venue>ICSE</venue><pages>1177-1180</pages><year>2013</year><type>Conference and Workshop Papers</type><key>conf/icse/SukkerdBWZB04</key><doi>10.1109/ICSE.2013.6606672</doi><ee>https://doi.org/10.1109/ICSE.2013.6606672</ee><url>http://dblp.org/rec/conf/icse/SukkerdBWZB04</url></info>
-<url>URL#1211736</url>
+<url>URL#1325627</url>
 </hit>
-<hit score="1" id="1543958">
+<hit score="1" id="1660432">
 <info><authors><author>Jochen Wuttke</author><author>Ivan Beschastnikh</author><author>Yuriy Brun</author></authors><title>Effects of Centralized and Distributed Version Control on Commit Granularity.</title><venue>TinyToCS</venue><volume>1</volume><year>2012</year><type>Informal Publications</type><key>journals/tinytocs/WuttkeBB12</key><ee>http://tinytocs.org/vol1/papers/tinytocs-v1-wuttke.pdf</ee><url>http://dblp.org/rec/journals/tinytocs/WuttkeBB12</url></info>
-<url>URL#1543958</url>
+<url>URL#1660432</url>
 </hit>
-<hit score="1" id="1617222">
+<hit score="1" id="1733792">
 <info><authors><author>Ivan Beschastnikh</author><author>Yuriy Brun</author><author>Michael D. Ernst</author><author>Arvind Krishnamurthy</author><author>Thomas E. Anderson</author></authors><title>Mining temporal invariants from partially ordered logs.</title><venue>Operating Systems Review</venue><volume>45</volume><number>3</number><pages>39-46</pages><year>2011</year><type>Journal Articles</type><key>journals/sigops/BeschastnikhBEKA11</key><doi>10.1145/2094091.2094101</doi><ee>http://doi.acm.org/10.1145/2094091.2094101</ee><url>http://dblp.org/rec/journals/sigops/BeschastnikhBEKA11</url></info>
-<url>URL#1617222</url>
+<url>URL#1733792</url>
 </hit>
 </hits>
 </result>
