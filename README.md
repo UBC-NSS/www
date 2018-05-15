@@ -3,7 +3,7 @@ NSS lab website at UBC
 
 ## How to view my fork before pushing to the web?
 Review pages with HTML preview using:
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/clementfung/www/master/html/index.html
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/UBC-NSS/www/master/html/index.html
 
 You can also open a local webserver:
 `python -m SimpleHTTPServer` 
@@ -15,8 +15,8 @@ The default aspect ratio of the photos is 3:2, only because my camera had that s
 Add a photo there, and modify the nivoSlider section in index.html to include it in the rotation.
 
 ### Photos: Headshots
+All the original shots are stored in /files/people-photos/unedited  
 I use gThumb to crop the image into a square, and then save it in the /files/people-photos directory.  
-IMPORTANT: Due to noted security concerns, downsize the image to a maximum size of 300x300.
 
 ### Publications: DBLP Query Tool
 Just navigate to the /dynamic-dblp directory and call make. 
