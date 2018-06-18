@@ -23,12 +23,14 @@ Just navigate to the /dynamic-dblp directory and call make.
 This will:
 - Query DBLP for papers authored by the 6 faculty members here at NSS, and save results into XML
 - Parse each of the XML response files into a combined python object, applying some filters
+- Applies a blacklist: if the title matcches exactly in the `blacklist` file.
 - Write the python object into a pub_list.html file
 - Copy the file over the the /html directory
+
+TODO: how to incorporate Margo's future pubs easily?
 
 Python dependencies:
 - I did everything with python 2.7. TODO: test on python 3.
 - pandas
-- django (not really important. TODO: remove django)
 
-TODO: Make the filtering easier to manage
+

@@ -1,7 +1,5 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
-from django.utils.encoding import smart_str
-
 import pdb
 
 keys_i_care_about = ['title', 'venue', 'year', 'ee']
@@ -42,10 +40,14 @@ def parse_faculty_obj(pub_dict, faculty_file):
         if year not in year_list:
             continue
 
-        # Skip two odd Alan Wagner copies
-        if hit_info.find("venue").text == "ICSR" or hit_info.find("venue").text == "AI Magazine":
-            print "Skipping " + pub_id + " since it is blacklisted"
+        if hit_info.find("title").text in blacklist:
+            print "Blacklist hit: " + hit_info.find("title").text
             continue
+
+        # Skip two odd Alan Wagner copies
+        # if hit_info.find("venue").text == "ICSR" or hit_info.find("venue").text == "AI Magazine":
+        #     print "Skipping " + pub_id + " since it is blacklisted"
+        #     continue
 
         # Skip anything in "proceedings of..."
         if hit_info.find("type").text == "Editorship":
@@ -67,7 +69,9 @@ def parse_faculty_obj(pub_dict, faculty_file):
         author_elems = hit_info.find('authors')
         author_list = list()
         for author in author_elems:
-            author_list.append(author.text)
+            # Fix weird "Ali Mesbah 0001" problem
+            author_name = author.text.replace(" 0001", "")
+            author_list.append(author_name)
 
         pub_obj['authors'] = author_list
 
@@ -112,17 +116,18 @@ def pub_dict_to_html(pub_dict):
             file_obj.write("<ul>\n")
 
         file_obj.write("<li>\n")
+
         file_obj.write(
-            "<strong>" + smart_str(row['title']) + "</strong>\n")
+            "<strong>" + row['title'].encode('utf-8') + "</strong>\n")
 
         author_string = ", ".join(row['authors'])
 
-        file_obj.write(smart_str(author_string) + ".\n")
+        file_obj.write(author_string.encode('utf-8') + ".\n")
 
-        file_obj.write(row['venue'] + "\n")
+        file_obj.write(row['venue'].encode('utf-8') + "\n")
         file_obj.write(year + ".\n")
         file_obj.write(
-            "[<a href=\"" + smart_str(row['ee']) + "\">link</a>]\n")
+            "[<a href=\"" + row['ee'] + "\">link</a>]\n")
         file_obj.write("</li>\n")
 
     file_obj.write("</ul>\n")
