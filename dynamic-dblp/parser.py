@@ -2,7 +2,6 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import pdb
 
-keys_i_care_about = ['title', 'venue', 'year', 'ee']
 year_list = list()
 starting_year = 2018
 
@@ -15,6 +14,10 @@ def parse_faculty_obj(pub_dict, faculty_file):
     tree = ET.parse(faculty_file)
     root = tree.getroot()
     total_parsed = 0
+
+    # Only accept entires that contain all the following html tags
+    # ee is the link to the paper page
+    keys_i_care_about = ['title', 'venue', 'year', 'ee']
 
     # This whole part is very specific to how the DBLP API looks.
     # The XML element "hits" is the one with everything
@@ -30,8 +33,6 @@ def parse_faculty_obj(pub_dict, faculty_file):
         # A flat dictionary for one publication
         pub_obj = dict()
 
-        # if hit_info.find('year') is None:
-        #     continue
 
         # # Top level dictionary indexed by year.
         year = hit_info.find('year').text
@@ -44,22 +45,12 @@ def parse_faculty_obj(pub_dict, faculty_file):
             print "Blacklist hit: " + hit_info.find("title").text
             continue
 
-        # Skip two odd Alan Wagner copies
-        # if hit_info.find("venue").text == "ICSR" or hit_info.find("venue").text == "AI Magazine":
-        #     print "Skipping " + pub_id + " since it is blacklisted"
-        #     continue
-
         # Skip anything in "proceedings of..."
         if hit_info.find("type").text == "Editorship":
             continue
 
-        # Init year dict if not present
-        # if year not in pub_dict:
-        #     pub_dict[year] = dict()
-
-        # Skip repearted publication ID
+        # Skip repeated publication ID (usually from professor co-authorship)
         if pub_id in pub_dict:
-            # print pub_id + " is already present."
             continue
 
         # Get authors
@@ -136,7 +127,7 @@ def pub_dict_to_html(pub_dict):
 if __name__ == "__main__":
 
     # Take from the current year, go back 10 years
-    for i in range(15):
+    for i in range(10):
         year_list.append(str(starting_year - i))
 
     faculty_files = ["andy.xml", "ivan.xml", "bill.xml",

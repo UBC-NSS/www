@@ -1,131 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-<query id="21305">:facetid:author:Norman_C\".\"_Hutchinson</query>
+<query id="15110">:facetid:author:Norman_C\".\"_Hutchinson</query>
 <status code="200">OK</status>
-<time unit="msecs">3.42</time>
+<time unit="msecs">3.26</time>
 <completions total="1" computed="1" sent="1">
-<c sc="60" dc="60" oc="60" id="3870656">:facetid:author:Norman_C._Hutchinson</c>
+<c sc="60" dc="60" oc="60" id="3936087">:facetid:author:Norman_C._Hutchinson</c>
 </completions>
 <hits total="60" computed="60" sent="30" first="0">
-<hit score="1" id="1003422">
+<hit score="1" id="1069803">
 <info><authors><author>Mahdi Tayarani Najaran</author><author>Norman C. Hutchinson</author></authors><title>Innesto - a multi-attribute searchable consistent key/value store.</title><venue>IJBDI</venue><volume>1</volume><number>3</number><pages>151-165</pages><year>2014</year><type>Journal Articles</type><key>journals/ijbdi/NajaranH14</key><doi>10.1504/IJBDI.2014.066323</doi><ee>https://doi.org/10.1504/IJBDI.2014.066323</ee><url>https://dblp.org/rec/journals/ijbdi/NajaranH14</url></info>
-<url>URL#1003422</url>
+<url>URL#1069803</url>
 </hit>
-<hit score="1" id="1178052">
+<hit score="1" id="1245770">
 <info><authors><author>Mahdi Tayarani Najaran</author><author>Shun-Yun Hu</author><author>Norman C. Hutchinson</author></authors><title>SPEX - scalable spatial publish/subscribe for distributed virtual worlds without borders.</title><venue>MMSys</venue><pages>127-138</pages><year>2014</year><type>Conference and Workshop Papers</type><key>conf/mmsys/NajaranHH14</key><doi>10.1145/2557642.2557655</doi><ee>http://doi.acm.org/10.1145/2557642.2557655</ee><url>https://dblp.org/rec/conf/mmsys/NajaranHH14</url></info>
-<url>URL#1178052</url>
+<url>URL#1245770</url>
 </hit>
-<hit score="1" id="1364793">
+<hit score="1" id="1433407">
 <info><authors><author>Mahdi Tayarani Najaran</author><author>Norman C. Hutchinson</author></authors><title>Innesto - A Searchable Key/Value Store for Highly Dimensional Data.</title><venue>CloudCom</venue><pages>411-420</pages><year>2013</year><type>Conference and Workshop Papers</type><key>conf/cloudcom/NajaranH13</key><doi>10.1109/CLOUDCOM.2013.60</doi><ee>https://doi.org/10.1109/CloudCom.2013.60</ee><url>https://dblp.org/rec/conf/cloudcom/NajaranH13</url></info>
-<url>URL#1364793</url>
+<url>URL#1433407</url>
 </hit>
-<hit score="1" id="1726700">
+<hit score="1" id="1796961">
 <info><authors><author>Geoffrey Lefebvre</author><author>Brendan Cully</author><author>Christopher Head</author><author>Mark Spear</author><author>Norman C. Hutchinson</author><author>Mike Feeley</author><author>Andrew Warfield</author></authors><title>Execution mining.</title><venue>VEE</venue><pages>145-158</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/vee/LefebvreCHSHFW12</key><doi>10.1145/2151024.2151044</doi><ee>http://doi.acm.org/10.1145/2151024.2151044</ee><url>https://dblp.org/rec/conf/vee/LefebvreCHSHFW12</url></info>
-<url>URL#1726700</url>
+<url>URL#1796961</url>
 </hit>
-<hit score="1" id="1734345">
+<hit score="1" id="1804644">
 <info><authors><author>Aiman Erbad</author><author>Norman C. Hutchinson</author><author>Charles Krasic</author></authors><title>DOHA - scalable real-time web applications through adaptive concurrent execution.</title><venue>WWW</venue><pages>161-170</pages><year>2012</year><type>Conference and Workshop Papers</type><key>conf/www/ErbadHK12</key><doi>10.1145/2187836.2187859</doi><ee>http://doi.acm.org/10.1145/2187836.2187859</ee><url>https://dblp.org/rec/conf/www/ErbadHK12</url></info>
-<url>URL#1734345</url>
+<url>URL#1804644</url>
 </hit>
-<hit score="1" id="1884305">
+<hit score="1" id="1954981">
 <info><authors><author>Mohammad Shamma</author><author>Dutch T. Meyer</author><author>Jake Wires</author><author>Maria Ivanova</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Capo - Recapitulating Storage for Virtual Desktops.</title><venue>FAST</venue><pages>31-45</pages><year>2011</year><type>Conference and Workshop Papers</type><key>conf/fast/ShammaMWIHW11</key><ee>http://www.usenix.org/events/fast11/tech/techAbstracts.html#Shamma</ee><url>https://dblp.org/rec/conf/fast/ShammaMWIHW11</url></info>
-<url>URL#1884305</url>
+<url>URL#1954981</url>
 </hit>
-<hit score="1" id="2120013">
+<hit score="1" id="2191384">
 <info><authors><author>Dutch T. Meyer</author><author>Mohammad Shamma</author><author>Jake Wires</author><author>Quan Zhang</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Fast and Cautious Evolution of Cloud Storage.</title><venue>HotStorage</venue><year>2010</year><type>Conference and Workshop Papers</type><key>conf/hotstorage/MeyerSWZHW10</key><ee>https://www.usenix.org/conference/hotstorage-10/fast-and-cautious-evolution-cloud-storage</ee><url>https://dblp.org/rec/conf/hotstorage/MeyerSWZHW10</url></info>
-<url>URL#2120013</url>
+<url>URL#2191384</url>
 </hit>
-<hit score="1" id="2326307">
+<hit score="1" id="2398042">
 <info><authors><author>Geoffrey Lefebvre</author><author>Brendan Cully</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Tralfamadore - unifying source code and execution experience.</title><venue>EuroSys</venue><pages>199-204</pages><year>2009</year><type>Conference and Workshop Papers</type><key>conf/eurosys/LefebvreCFHW09</key><doi>10.1145/1519065.1519087</doi><ee>http://doi.acm.org/10.1145/1519065.1519087</ee><url>https://dblp.org/rec/conf/eurosys/LefebvreCFHW09</url></info>
-<url>URL#2326307</url>
+<url>URL#2398042</url>
 </hit>
-<hit score="1" id="2501983">
+<hit score="1" id="2573895">
 <info><authors><author>Lechang Cheng</author><author>Norman C. Hutchinson</author><author>Mabo Robert Ito</author></authors><title>RealNet - A Topology Generator Based on Real Internet Topology.</title><venue>AINA Workshops</venue><pages>526-532</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/aina/ChengHI08</key><doi>10.1109/WAINA.2008.66</doi><ee>https://doi.org/10.1109/WAINA.2008.66</ee><url>https://dblp.org/rec/conf/aina/ChengHI08</url></info>
-<url>URL#2501983</url>
+<url>URL#2573895</url>
 </hit>
-<hit score="1" id="2529654">
+<hit score="1" id="2601566">
 <info><authors><author>Dutch T. Meyer</author><author>Gitika Aggarwal</author><author>Brendan Cully</author><author>Geoffrey Lefebvre</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Parallax - virtual disks for virtual machines.</title><venue>EuroSys</venue><pages>41-54</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/eurosys/MeyerACLFHW08</key><doi>10.1145/1352592.1352598</doi><ee>http://doi.acm.org/10.1145/1352592.1352598</ee><url>https://dblp.org/rec/conf/eurosys/MeyerACLFHW08</url></info>
-<url>URL#2529654</url>
+<url>URL#2601566</url>
 </hit>
-<hit score="1" id="2583462">
+<hit score="1" id="2655374">
 <info><authors><author>Brendan Cully</author><author>Geoffrey Lefebvre</author><author>Dutch T. Meyer</author><author>Mike Feeley</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Remus - High Availability via Asynchronous Virtual Machine Replication. (Best Paper)</title><venue>NSDI</venue><pages>161</pages><year>2008</year><type>Conference and Workshop Papers</type><key>conf/nsdi/CullyLMFHW08</key><ee>http://www.usenix.org/events/nsdi08/tech/full_papers/cully/cully.pdf</ee><url>https://dblp.org/rec/conf/nsdi/CullyLMFHW08</url></info>
-<url>URL#2583462</url>
+<url>URL#2655374</url>
 </hit>
-<hit score="1" id="2584038">
+<hit score="1" id="2655950">
 <info><authors><author>Dutch T. Meyer</author><author>Brendan Cully</author><author>Jake Wires</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author></authors><title>Block Mason.</title><venue>Workshop on I/O Virtualization</venue><year>2008</year><type>Conference and Workshop Papers</type><key>conf/osdi/MeyerCWHW08</key><ee>http://www.usenix.org/events/wiov08/tech/full_papers/meyer/meyer.pdf</ee><url>https://dblp.org/rec/conf/osdi/MeyerCWHW08</url></info>
-<url>URL#2584038</url>
+<url>URL#2655950</url>
 </hit>
-<hit score="1" id="2725806">
+<hit score="1" id="2797953">
 <info><authors><author>Andrew P. Black</author><author>Norman C. Hutchinson</author><author>Eric Jul</author><author>Henry M. Levy</author></authors><title>The development of the Emerald programming language.</title><venue>HOPL</venue><pages>1-51</pages><year>2007</year><type>Conference and Workshop Papers</type><key>conf/hopl/BlackHJL07</key><doi>10.1145/1238844.1238855</doi><ee>http://doi.acm.org/10.1145/1238844.1238855</ee><url>https://dblp.org/rec/conf/hopl/BlackHJL07</url></info>
-<url>URL#2725806</url>
+<url>URL#2797953</url>
 </hit>
-<hit score="1" id="2867083">
+<hit score="1" id="2940087">
 <info><authors><author>Gregory Kempe</author><author>Norman C. Hutchinson</author></authors><title>Networks without Borders - Communication despite Disconnection.</title><venue>AICT/ICIW</venue><pages>34</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/aict/KempeH06</key><doi>10.1109/AICT-ICIW.2006.137</doi><ee>https://doi.org/10.1109/AICT-ICIW.2006.137</ee><url>https://dblp.org/rec/conf/aict/KempeH06</url></info>
-<url>URL#2867083</url>
+<url>URL#2940087</url>
 </hit>
-<hit score="1" id="2936104">
+<hit score="1" id="3009165">
 <info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Routing Transient Traffic in Mobile Ad Hoc Networks.</title><venue>MSN</venue><pages>13-24</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/msn/CaiFH06</key><doi>10.1007/11943952_2</doi><ee>https://doi.org/10.1007/11943952_2</ee><url>https://dblp.org/rec/conf/msn/CaiFH06</url></info>
-<url>URL#2936104</url>
+<url>URL#3009165</url>
 </hit>
-<hit score="1" id="2951091">
+<hit score="1" id="3024212">
 <info><authors><author>Dmitry Brodsky</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Topology Sensitive Replica Selection.</title><venue>SRDS</venue><pages>18-28</pages><year>2006</year><type>Conference and Workshop Papers</type><key>conf/srds/BrodskyFH06</key><doi>10.1109/SRDS.2006.46</doi><ee>https://doi.org/10.1109/SRDS.2006.46</ee><url>https://dblp.org/rec/conf/srds/BrodskyFH06</url></info>
-<url>URL#2951091</url>
+<url>URL#3024212</url>
 </hit>
-<hit score="1" id="3009883">
+<hit score="1" id="3083062">
 <info><authors><author>Dwight J. Makaroff</author><author>Norman C. Hutchinson</author></authors><title>Development and evolution of a heterogeneous continuous media server - a case study.</title><venue>Journal of Software Maintenance</venue><volume>17</volume><number>2</number><pages>143-167</pages><year>2005</year><type>Journal Articles</type><key>journals/smr/MakaroffH05</key><doi>10.1002/SMR.309</doi><ee>https://doi.org/10.1002/smr.309</ee><url>https://dblp.org/rec/journals/smr/MakaroffH05</url></info>
-<url>URL#3009883</url>
+<url>URL#3083062</url>
 </hit>
-<hit score="1" id="3090935">
+<hit score="1" id="3164114">
 <info><authors><author>Kan Cai</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>The impact of transient traffic on mobile, ad-hoc routing.</title><venue>PE-WASUN</venue><pages>189-196</pages><year>2005</year><type>Conference and Workshop Papers</type><key>conf/pe-wasun/CaiFH05</key><doi>10.1145/1089803.1089985</doi><ee>http://doi.acm.org/10.1145/1089803.1089985</ee><url>https://dblp.org/rec/conf/pe-wasun/CaiFH05</url></info>
-<url>URL#3090935</url>
+<url>URL#3164114</url>
 </hit>
-<hit score="1" id="3152901">
+<hit score="1" id="3226156">
 <info><authors><author>Dwight J. Makaroff</author><author>Gerald W. Neufeld</author><author>Norman C. Hutchinson</author></authors><title>Performance evaluation for VBR Continuous Media File Server admission control.</title><venue>Softw., Pract. Exper.</venue><volume>34</volume><number>12</number><pages>1187-1210</pages><year>2004</year><type>Journal Articles</type><key>journals/spe/MakaroffNH04</key><doi>10.1002/SPE.609</doi><ee>https://doi.org/10.1002/spe.609</ee><url>https://dblp.org/rec/journals/spe/MakaroffNH04</url></info>
-<url>URL#3152901</url>
+<url>URL#3226156</url>
 </hit>
-<hit score="1" id="3163750">
+<hit score="1" id="3237005">
 <info><authors><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Suprio Ray</author></authors><title>Realistic Mobility for Mobile Ad Hoc Network Simulation.</title><venue>ADHOC-NOW</venue><pages>324-329</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/adhoc-now/FeeleyHR04</key><doi>10.1007/978-3-540-28634-9_28</doi><ee>https://doi.org/10.1007/978-3-540-28634-9_28</ee><url>https://dblp.org/rec/conf/adhoc-now/FeeleyHR04</url></info>
-<url>URL#3163750</url>
+<url>URL#3237005</url>
 </hit>
-<hit score="1" id="3215576">
+<hit score="1" id="3288855">
 <info><authors><author>Ritesh Shah</author><author>Norman C. Hutchinson</author><author>William S. Evans</author></authors><title>Voilà - Delivering Messages Across Partitioned Ad-Hoc Networks.</title><venue>LCN</venue><pages>610-617</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/lcn/ShahHE04</key><doi>10.1109/LCN.2004.135</doi><ee>https://doi.org/10.1109/LCN.2004.135</ee><url>https://dblp.org/rec/conf/lcn/ShahHE04</url></info>
-<url>URL#3215576</url>
+<url>URL#3288855</url>
 </hit>
-<hit score="1" id="3235586">
+<hit score="1" id="3309052">
 <info><authors><author>Terry Coatta</author><author>Norman C. Hutchinson</author><author>Andrew Warfield</author><author>Joseph H. T. Won</author></authors><title>A data synchronization service for ad hoc groups.</title><venue>WCNC</venue><pages>483-488</pages><year>2004</year><type>Conference and Workshop Papers</type><key>conf/wcnc/CoattaHWW04</key><doi>10.1109/WCNC.2004.1311592</doi><ee>https://doi.org/10.1109/WCNC.2004.1311592</ee><url>https://dblp.org/rec/conf/wcnc/CoattaHWW04</url></info>
-<url>URL#3235586</url>
+<url>URL#3309052</url>
 </hit>
-<hit score="1" id="3286386">
+<hit score="1" id="3359909">
 <info><authors><author>Ritesh Shah</author><author>Norman C. Hutchinson</author></authors><title>Delivering Messages in Disconnected Mobile Ad Hoc Networks.</title><venue>ADHOC-NOW</venue><pages>72-83</pages><year>2003</year><type>Conference and Workshop Papers</type><key>conf/adhoc-now/ShahH03</key><doi>10.1007/978-3-540-39611-6_7</doi><ee>https://doi.org/10.1007/978-3-540-39611-6_7</ee><url>https://dblp.org/rec/conf/adhoc-now/ShahH03</url></info>
-<url>URL#3286386</url>
+<url>URL#3359909</url>
 </hit>
-<hit score="1" id="3430165">
+<hit score="1" id="3503889">
 <info><authors><author>Dmitry Brodsky</author><author>Alex Brodsky</author><author>Jody Pomkoski</author><author>Shihao Gong</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author></authors><title>Using File-Grain Connectivity to Implement a Peer-to-Peer File System.</title><venue>SRDS</venue><pages>318-323</pages><year>2002</year><type>Conference and Workshop Papers</type><key>conf/srds/BrodskyBPGFH02</key><doi>10.1109/RELDIS.2002.1180203</doi><ee>https://doi.org/10.1109/RELDIS.2002.1180203</ee><url>https://dblp.org/rec/conf/srds/BrodskyBPGFH02</url></info>
-<url>URL#3430165</url>
+<url>URL#3503889</url>
 </hit>
-<hit score="1" id="3441121">
+<hit score="1" id="3514858">
 <info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Joon Suan Ong</author></authors><title>Structuring operating system aspects.</title><venue>Commun. ACM</venue><volume>44</volume><number>10</number><pages>79-82</pages><year>2001</year><type>Journal Articles</type><key>journals/cacm/CoadyKFHO01</key><doi>10.1145/383845.383863</doi><ee>http://doi.acm.org/10.1145/383845.383863</ee><url>https://dblp.org/rec/journals/cacm/CoadyKFHO01</url></info>
-<url>URL#3441121</url>
+<url>URL#3514858</url>
 </hit>
-<hit score="1" id="3470247">
+<hit score="1" id="3544008">
 <info><authors><author>Dwight J. Makaroff</author><author>Gerald W. Neufeld</author><author>Norman C. Hutchinson</author></authors><title>Design and Implementation of a VBR Continuous Media File Server.</title><venue>IEEE Trans. Software Eng.</venue><volume>27</volume><number>1</number><pages>13-28</pages><year>2001</year><type>Journal Articles</type><key>journals/tse/MakaroffNH01</key><doi>10.1109/32.895985</doi><ee>https://doi.org/10.1109/32.895985</ee><url>https://dblp.org/rec/journals/tse/MakaroffNH01</url></info>
-<url>URL#3470247</url>
+<url>URL#3544008</url>
 </hit>
-<hit score="1" id="3485978">
+<hit score="1" id="3559739">
 <info><authors><author>Yvonne Coady</author><author>Gregor Kiczales</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Joon Suan Ong</author><author>Stephan Gudmundson</author></authors><title>Aspect-Oriented System Structure.</title><venue>HotOS</venue><pages>166</pages><year>2001</year><type>Conference and Workshop Papers</type><key>conf/hotos/CoadyKFHOG01</key><doi>10.1109/HOTOS.2001.990082</doi><ee>https://doi.org/10.1109/HOTOS.2001.990082</ee><url>https://dblp.org/rec/conf/hotos/CoadyKFHOG01</url></info>
-<url>URL#3485978</url>
+<url>URL#3559739</url>
 </hit>
-<hit score="1" id="3486016">
+<hit score="1" id="3559777">
 <info><authors><author>Andrew Warfield</author><author>Norman C. Hutchinson</author></authors><title>The Importance of Good Plumbing-Reconsidering Infrastructure in Distributed Systems.</title><venue>HotOS</venue><pages>187</pages><year>2001</year><type>Conference and Workshop Papers</type><key>conf/hotos/WarfieldH01</key><doi>10.1109/HOTOS.2001.990103</doi><ee>https://doi.org/10.1109/HOTOS.2001.990103</ee><url>https://dblp.org/rec/conf/hotos/WarfieldH01</url></info>
-<url>URL#3486016</url>
+<url>URL#3559777</url>
 </hit>
-<hit score="1" id="3632850">
+<hit score="1" id="3706844">
 <info><authors><author>Douglas J. Santry</author><author>Michael J. Feeley</author><author>Norman C. Hutchinson</author><author>Alistair C. Veitch</author></authors><title>Elephant - The File System That Never Forgets.</title><venue>Workshop on Hot Topics in Operating Systems</venue><pages>2-7</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/hotos/SantryFHV99</key><doi>10.1109/HOTOS.1999.798369</doi><ee>https://doi.org/10.1109/HOTOS.1999.798369</ee><url>https://dblp.org/rec/conf/hotos/SantryFHV99</url></info>
-<url>URL#3632850</url>
+<url>URL#3706844</url>
 </hit>
-<hit score="1" id="3638635">
+<hit score="1" id="3712629">
 <info><authors><author>Dwight J. Makaroff</author><author>Gerald W. Neufeld</author><author>Norman C. Hutchinson</author></authors><title>Network Bandwidth Allocation and Admission Control for a Continuous Media File Server.</title><venue>IDMS</venue><pages>337-350</pages><year>1999</year><type>Conference and Workshop Papers</type><key>conf/idms/MakaroffNH99</key><doi>10.1007/3-540-48109-5_27</doi><ee>https://doi.org/10.1007/3-540-48109-5_27</ee><url>https://dblp.org/rec/conf/idms/MakaroffNH99</url></info>
-<url>URL#3638635</url>
+<url>URL#3712629</url>
 </hit>
 </hits>
 </result>
