@@ -5,7 +5,6 @@ import pdb
 year_list = list()
 starting_year = 2018
 
-
 def parse_faculty_obj(pub_dict, faculty_file):
 
     blacklist_file = open("blacklist")
@@ -17,7 +16,7 @@ def parse_faculty_obj(pub_dict, faculty_file):
 
     # Only accept entires that contain all the following html tags
     # ee is the link to the paper page
-    keys_i_care_about = ['title', 'venue', 'year', 'ee']
+    mandatory_keys = ['title', 'venue', 'year', 'ee']
 
     # This whole part is very specific to how the DBLP API looks.
     # The XML element "hits" is the one with everything
@@ -33,7 +32,6 @@ def parse_faculty_obj(pub_dict, faculty_file):
         # A flat dictionary for one publication
         pub_obj = dict()
 
-
         # # Top level dictionary indexed by year.
         year = hit_info.find('year').text
 
@@ -41,12 +39,17 @@ def parse_faculty_obj(pub_dict, faculty_file):
         if year not in year_list:
             continue
 
-        if hit_info.find("title").text in blacklist:
-            print "Blacklist hit: " + hit_info.find("title").text
+        # Skip unofficial arxiv pubs
+        if hit_info.find('type').text == "Informal Publications":
             continue
 
         # Skip anything in "proceedings of..."
         if hit_info.find("type").text == "Editorship":
+            continue
+
+        # If all else fails, skip exact title matches from the blacklist file
+        if hit_info.find("title").text in blacklist:
+            print "Blacklist hit: " + hit_info.find("title").text
             continue
 
         # Skip repeated publication ID (usually from professor co-authorship)
@@ -61,13 +64,14 @@ def parse_faculty_obj(pub_dict, faculty_file):
         author_list = list()
         for author in author_elems:
             # Fix weird "Ali Mesbah 0001" problem
+            # TODO: turn into a regex
             author_name = author.text.replace(" 0001", "")
             author_list.append(author_name)
 
         pub_obj['authors'] = author_list
 
         # Get all other keys
-        for key in keys_i_care_about:
+        for key in mandatory_keys:
 
             if hit_info.find(key) is None:
                 has_all = False
