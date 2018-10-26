@@ -40,8 +40,8 @@ def parse_faculty_obj(pub_dict, faculty_file):
             continue
 
         # Skip unofficial arxiv pubs
-        if hit_info.find('type').text == "Informal Publications":
-            continue
+        # if hit_info.find('type').text == "Informal Publications":
+        #    continue
 
         # Skip anything in "proceedings of..."
         if hit_info.find("type").text == "Editorship":
@@ -75,8 +75,13 @@ def parse_faculty_obj(pub_dict, faculty_file):
 
             if hit_info.find(key) is None:
                 has_all = False
+            
             else:
-                pub_obj[key] = hit_info.find(key).text
+                # Overwrite "CoRR" to be "ArXiv".
+                if key == "venue" and hit_info.find(key).text == "CoRR":
+                    pub_obj[key] = "ArXiv"
+                else:
+                    pub_obj[key] = hit_info.find(key).text
 
         # Add to the faculty_obj if all keys are there
         if has_all:
