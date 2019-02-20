@@ -2,10 +2,9 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import pdb
 
-year_list = list()
 starting_year = 2018
 
-def parse_faculty_obj(pub_dict, faculty_file):
+def parse_faculty_obj(pub_dict, faculty_file, year_list):
 
     blacklist_file = open("blacklist")
     blacklist = [line.strip() for line in blacklist_file]
@@ -136,10 +135,16 @@ def pub_dict_to_html(pub_dict):
 if __name__ == "__main__":
 
     # Take from the current year, go back 10 years
+    year_list = list()
     for i in range(10):
         year_list.append(str(starting_year - i))
 
-    faculty_files = ["andy.xml", "ivan.xml", "bill.xml",
+    # Only go back 5 years for Margo as of now. Might change later.
+    margo_year_list = list()
+    for i in rantge(5):
+        margo_year_list.append(str(starting_year - i))
+
+    faculty_files = ['margo.xml', 'andy.xml', 'ivan.xml', 'bill.xml',
                      'alan.xml', 'norm.xml', 'mike.xml']
 
     # dictionary by year
@@ -147,7 +152,7 @@ if __name__ == "__main__":
     total_count = 0
 
     for file in faculty_files:
-        faculty_dict, count = parse_faculty_obj(pub_dict, file)
+        faculty_dict, count = parse_faculty_obj(pub_dict, file, year_list)
         print "Parsed " + str(count) + " publications for " + file
         total_count += count
 

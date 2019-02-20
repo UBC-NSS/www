@@ -14,6 +14,7 @@ dblp-query:
 	wget http://dblp.org/search/publ/api?q=author%3AMichael_J._Feeley%3A -O mike.xml
 	wget http://dblp.org/search/publ/api?q=author%3ANorman_C._Hutchinson%3A -O norm.xml
 	wget http://dblp.org/search/publ/api?q=author%3AAlan_Wagner%3A -O alan.xml
+	wget https://dblp.org/search/publ/api?q=author%3AMargo_I._Seltzer%3A -O margo.xml
 
 gen-html:
 	python parser.py
