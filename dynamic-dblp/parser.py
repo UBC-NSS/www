@@ -48,7 +48,7 @@ def parse_faculty_obj(pub_dict, faculty_file, year_list):
 
         # If all else fails, skip exact title matches from the blacklist file
         if hit_info.find("title").text in blacklist:
-            print "Blacklist hit: " + hit_info.find("title").text
+            print("Blacklist hit: " + hit_info.find("title").text)
             continue
 
         # Skip repeated publication ID (usually from professor co-authorship)
@@ -117,13 +117,13 @@ def pub_dict_to_html(pub_dict):
         file_obj.write("<li>\n")
 
         file_obj.write(
-            "<strong>" + row['title'].encode('utf-8') + "</strong>\n")
+            "<strong>" + row['title'] + "</strong>\n")
 
         author_string = ", ".join(row['authors'])
 
-        file_obj.write(author_string.encode('utf-8') + ".\n")
+        file_obj.write(author_string + ".\n")
 
-        file_obj.write(row['venue'].encode('utf-8') + "\n")
+        file_obj.write(row['venue'] + "\n")
         file_obj.write(year + ".\n")
         file_obj.write(
             "[<a href=\"" + row['ee'] + "\">link</a>]\n")
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
     # Only go back 5 years for Margo as of now. Might change later.
     margo_year_list = list()
-    for i in rantge(5):
+    for i in range(5):
         margo_year_list.append(str(starting_year - i))
 
     faculty_files = ['margo.xml', 'andy.xml', 'ivan.xml', 'bill.xml',
@@ -153,11 +153,11 @@ if __name__ == "__main__":
 
     for file in faculty_files:
         faculty_dict, count = parse_faculty_obj(pub_dict, file, year_list)
-        print "Parsed " + str(count) + " publications for " + file
+        print("Parsed " + str(count) + " publications for " + file)
         total_count += count
 
-    print "Parsed " + str(total_count) + " in total."
+    print("Parsed " + str(total_count) + " in total.")
 
     pub_dict_to_html(pub_dict)
 
-    print "Done writing to HTML."
+    print("Done writing to HTML.")
