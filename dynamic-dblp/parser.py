@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import pdb
 
-starting_year = 2018
+starting_year = 2019
 
 def parse_faculty_obj(pub_dict, faculty_file, year_list):
 
